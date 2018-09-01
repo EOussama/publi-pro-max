@@ -6,7 +6,7 @@
     <br>
 </h1>
     <p align="center">
-        <i align="center"><small>ALL ADVERTISING</small></i>
+        <i align="center"><small>ALL IN ADVERTISING</small></i>
     </p>
     <hr>
 </p>

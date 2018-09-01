@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <nav class="navbar is-transparent is-fixed-top">
+        <nav class="navbar is-white is-fixed-top">
             <div class="navbar-brand">
                 <div class="navbar-burger burger" data-target="menuitems">
                     <span></span>
@@ -41,18 +41,27 @@
         
             <div id="menuitems" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item has-text-grey-light trnsjs" href="javascript:void(0)">Home</a>
-                    <a class="navbar-item has-text-grey-light trnsjs" href="javascript:void(0)">About</a>
-                    <a class="navbar-item has-text-grey-light trnsjs" href="javascript:void(0)">Contact</a>
+                    <a class="navbar-item has-text-grey-light is-uppercase is-active" href="javascript:void(0)">Inicio</a>
+                    <a class="navbar-item has-text-grey-light is-uppercase" href="javascript:void(0)">Nosotros</a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link has-text-grey-light is-uppercase" href="javascript:void(0)">Servicios</a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a id="langSelectEn" class="navbar-item has-text-grey-light" href="javascript:void(0)">Rótulos/Luminosos</a>
+                            <a id="langSelectEs" class="navbar-item has-text-grey-light" href="javascript:void(0)">Rotulación de vehículos</a>
+                            <a id="langSelectFr" class="navbar-item has-text-grey-light" href="javascript:void(0)">Letras Corpóreas</a>
+                            <a id="langSelectFr" class="navbar-item has-text-grey-light" href="javascript:void(0)">Vinilos</a>
+                        </div>
+                    </div>
+                    <a class="navbar-item has-text-grey-light is-uppercase" href="javascript:void(0)">Trabajas</a>
                 </div>
             
                 <div class="navbar-end">
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link has-text-grey-light trnsjs" href="javascript:void(0)">Language</a>
+                        <a class="navbar-link has-text-grey-light" href="javascript:void(0)">Idioma</a>
                         <div class="navbar-dropdown is-boxed">
-                            <a id="langSelectEn" class="navbar-item has-text-grey-light trnsjs" href="javascript:void(0)">English</a>
-                            <a id="langSelectEs" class="navbar-item has-text-grey-light trnsjs" href="javascript:void(0)">Spanish</a>
-                            <a id="langSelectFr" class="navbar-item has-text-grey-light trnsjs" href="javascript:void(0)">French</a>
+                            <a id="langSelectEn" class="navbar-item has-text-grey-light" href="javascript:void(0)">Inglés</a>
+                            <a id="langSelectEs" class="navbar-item has-text-grey-light" href="javascript:void(0)">Español</a>
+                            <a id="langSelectFr" class="navbar-item has-text-grey-light" href="javascript:void(0)">Francés</a>
                         </div>
                     </div>
                 </div>
@@ -67,7 +76,7 @@
                             <img id="logo" src="assets/images/logo.png" alt="Publi Pro Max logo" width="350">
                         </div>
                         <div class="tile is-child">
-                            <p id="slogan" class="subtitle is-uppercase trnsjs">all in advertising</p>
+                            <p id="slogan" class="subtitle is-uppercase">todos en publicidad</p>
                         </div>
                     </div>
                 </div>

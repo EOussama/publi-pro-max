@@ -64,6 +64,7 @@ nav.navbar {
     animation-duration: 1s;
     animation-fill-mode: forwards;
     opacity: 0;
+    letter-spacing: 7px;
     transform: scale(.95);
 }
 
