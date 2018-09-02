@@ -44,6 +44,10 @@ nav.navbar {
         opacity: 1;
     }
 }
+
+i.fa {
+    margin-right: 5px;
+}
 /* #endregion */
 
 /* #region Logo */
