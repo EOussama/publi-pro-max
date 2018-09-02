@@ -72,6 +72,18 @@ i.fa {
     transform: scale(.95);
 }
 
+@media (max-width: 450px) {
+    #logo {
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    #logo {
+        width: 200px;
+    }
+}
+
 @keyframes slideLeft {
     to {
         left: 0;
