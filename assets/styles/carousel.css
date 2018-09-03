@@ -6,6 +6,11 @@ div.carousel {
     width: 100%;
     z-index: 0;
     overflow: hidden;
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
 }
 
 ul.carousel-container {
@@ -24,8 +29,8 @@ li.carousel-item {
 }
 
 li.carousel-item > img {
-    filter: grayscale(100%) blur(8px);
+    filter: grayscale(100%) blur(2px);
     height: 100%;
-    opacity: .2;
+    opacity: .1;
     width: 100%;
 }
