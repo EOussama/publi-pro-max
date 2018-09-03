@@ -24,13 +24,8 @@ li.carousel-item {
 }
 
 li.carousel-item > img {
-    filter: grayscale(100%) blur(2px);
+    filter: grayscale(100%) blur(5px);
     height: 100%;
-    opacity: .5;
-    user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
+    opacity: .08;
     width: 100%;
 }
