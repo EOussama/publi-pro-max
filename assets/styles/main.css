@@ -120,6 +120,17 @@ i.fa {
         transform: scale(1);
     }
 }
+
+.fa-chevron-down {
+    opacity: .5;
+    cursor: pointer;
+    transition-property: opacity;
+    transition-duration: .3s;
+}
+
+.fa-chevron-down:hover {
+    opacity: 1;
+}
 /* #endregion */
 
 /* #region loadingPanel */

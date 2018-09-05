@@ -24,8 +24,8 @@ li.carousel-item {
 }
 
 li.carousel-item > img {
-    filter: grayscale(100%) blur(5px);
+    filter: grayscale(100%) blur(2px);
     height: 100%;
-    opacity: .08;
+    opacity: .4;
     width: 100%;
 }
