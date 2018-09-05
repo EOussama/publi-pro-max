@@ -131,6 +131,19 @@ i.fa {
 .fa-chevron-down:hover {
     opacity: 1;
 }
+
+.copyright {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30px);
+}
+
+#contact-info {
+    padding-top: 40px;
+    /*width: 900px;
+    margin: auto;*/
+}
+
 /* #endregion */
 
 /* #region loadingPanel */
