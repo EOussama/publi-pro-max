@@ -8,7 +8,8 @@ window.addEventListener('load', () => {
         navbarBurger = document.querySelector('.navbar-burger'),
         menu = document.getElementById(navbarBurger.dataset.target),
         headerHeight = document.getElementsByTagName('header')[0],
-        scrollBtn = document.querySelector('.fa-chevron-down');
+        scrollBtn = document.querySelector('.fa-chevron-down'),
+        copyrightDate = document.getElementById('copyright-year');
 
     navbarBurger.addEventListener('click', () => {
         navbarBurger.classList.toggle('is-active');
@@ -21,4 +22,9 @@ window.addEventListener('load', () => {
             behavior: 'smooth'
         });
     });
+
+    if(((new Date()).getFullYear()) > 2018)
+        copyrightDate.textContent = `2018 - ${(new Date()).getFullYear()}`;
+    else
+        copyrightDate.textContent = 2018;
 });

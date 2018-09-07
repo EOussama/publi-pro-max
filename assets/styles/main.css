@@ -121,17 +121,31 @@ i.fa {
     }
 }
 
+/* #endregion */
+
+/* #region ScrollBtn */
 .fa-chevron-down {
-    opacity: .5;
+    position: relative;
+    top: -15px;
+    opacity: 0;
     cursor: pointer;
     transition-property: opacity;
     transition-duration: .3s;
+    animation-name: reveal;
+    animation-duration: .5s;
+    animation-delay: 1.2s;
+    animation-fill-mode: both;
 }
 
-.fa-chevron-down:hover {
-    opacity: 1;
+@keyframes reveal {
+    to {
+        opacity: .5;
+        top: 0;
+    }
 }
+/* #endregion */
 
+/* #region Footer */
 .copyright {
     position: absolute;
     left: 50%;
@@ -140,10 +154,7 @@ i.fa {
 
 #contact-info {
     padding-top: 40px;
-    /*width: 900px;
-    margin: auto;*/
 }
-
 /* #endregion */
 
 /* #region loadingPanel */
