@@ -28,6 +28,15 @@ body {
     z-index: -1;
 }
 
+section.sep {
+    margin: 200px 0px;
+    padding: 30px 120px;
+}
+
+.modal .control input {
+    margin-bottom: 20px;
+}
+
 /* #region navbar */
 nav.is-transparent {
     background-color: transparent;

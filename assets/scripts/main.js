@@ -23,6 +23,21 @@ window.addEventListener('load', () => {
         });
     });
 
+    document.getElementById('btnUs').addEventListener('click', () => {
+        window.scrollTo({
+            top: document.querySelector('[data-id="btnUs"]').offsetTop - 50,
+            behavior: 'smooth'
+        });
+    });
+
+    document.getElementById('btnContact').addEventListener('click', () => {
+        document.querySelector('.modal').classList.toggle('is-active');
+    });
+
+    document.querySelector('.delete').addEventListener('click', () => {
+        document.querySelector('.modal').classList.toggle('is-active');
+    });
+
     if(((new Date()).getFullYear()) > 2018)
         copyrightDate.textContent = `2018 - ${(new Date()).getFullYear()}`;
     else
