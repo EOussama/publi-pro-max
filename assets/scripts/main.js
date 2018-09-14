@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
     const
         navbarBurger = document.querySelector('.navbar-burger'),
         menu = document.getElementById(navbarBurger.dataset.target),
-        headerHeight = document.getElementsByTagName('header')[0],
+        headerHeight = document.getElementsByTagName('header')[1],
         scrollBtn = document.querySelector('.fa-chevron-down'),
         copyrightDate = document.getElementById('copyright-year');
 
