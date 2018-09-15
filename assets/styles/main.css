@@ -43,6 +43,45 @@ section.sep {
     background-color: whitesmoke;
 }
 
+/* #region scrollTopBtn */
+div#scrollTopBtn {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: animScrommTopBtn;
+    background-color: #3b3333;
+    border-radius: 50%;
+    bottom: -50%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    opacity: .5;
+    position: fixed;
+    right: 50px;
+    transition-property: opacity;
+    transition-duration: .3s;
+    width: 50px;
+    z-index: 8;
+}
+
+div#scrollTopBtn:hover {
+    opacity: 1;
+}
+
+div#scrollTopBtn i.fa {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+@keyframes animScrommTopBtn {
+    to {
+        bottom: 50px;
+    }
+}
+/* #endregion */
+
 /* #region navbar */
 nav.is-transparent {
     background-color: transparent;
