@@ -37,6 +37,12 @@ section.sep {
     margin-bottom: 20px;
 }
 
+#map {
+    width: 400px;
+    height: 250px;
+    background-color: whitesmoke;
+}
+
 /* #region navbar */
 nav.is-transparent {
     background-color: transparent;
