@@ -1,10 +1,11 @@
 window.addEventListener('load', () => {
     const
         __images = document.querySelectorAll('.jobs-gallery .jobs-thumbs img'),
-        __focusedPanelJob = document.getElementById('focuedPanelJob');
+        __focusedPanelJob = document.querySelector('#focuedPanelJob img');
     var
         __jobsIndex = 0,
-        __timerJobs = null;
+        __timerJobs = null,
+        __timeoutJobs = null;
 
     __images.forEach(__image => {
         __image.addEventListener('click', () => {
@@ -22,7 +23,8 @@ window.addEventListener('load', () => {
             else
                 __images[__clickedIndex - 1].classList.remove('is-active');
 
-            setTimeout(startAutoGall, 3000);
+            clearTimeout(__timeoutJobs);
+            __timeoutJobs = setTimeout(startAutoGall, 3000);
         });
     });
 
