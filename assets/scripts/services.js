@@ -32,4 +32,15 @@ window.addEventListener('load', () => {
             behavior: 'smooth'
         });
     });
+
+    document.querySelectorAll('section img').forEach(__image => {
+        __image.addEventListener('click', () => {
+            document.querySelector('.images.modal img').src = __image.src;
+            document.querySelector('.images.modal').classList.add('is-active');
+        });
+    });
+
+    document.querySelector('.images.modal .modal-close').addEventListener('click', () => {
+        document.querySelector('.images.modal').classList.remove('is-active');
+    });
 })
