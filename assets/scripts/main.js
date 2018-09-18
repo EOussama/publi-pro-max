@@ -50,17 +50,6 @@ window.addEventListener('load', () => {
     });
 
     // Menu buttons
-    btnUs.addEventListener('click', () => {
-        window.scrollTo({
-            top: document.querySelector('[data-id="btnUs"]').offsetTop - 50,
-            behavior: 'smooth'
-        });
-
-        btnInicio.classList.remove('is-active');
-        btnJobs.classList.remove('is-active');
-        btnUs.classList.add('is-active');
-    });
-
     btnInicio.addEventListener('click', () => {
         window.scrollTo({
             top: 0,
@@ -72,7 +61,23 @@ window.addEventListener('load', () => {
         btnUs.classList.remove('is-active');
     });
 
+    btnUs.addEventListener('click', () => {
+        window.scrollTo({
+            top: document.querySelector('[data-id="btnUs"]').offsetTop - 50,
+            behavior: 'smooth'
+        });
+
+        btnInicio.classList.remove('is-active');
+        btnJobs.classList.remove('is-active');
+        btnUs.classList.add('is-active');
+    });
+
     btnJobs.addEventListener('click', () => {
+        window.scrollTo({
+            top: document.querySelector('[data-id="btnJobs"]').offsetTop - 50,
+            behavior: 'smooth'
+        });
+
         btnInicio.classList.remove('is-active');
         btnJobs.classList.add('is-active');
         btnUs.classList.remove('is-active');   
