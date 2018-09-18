@@ -45,8 +45,8 @@ window.addEventListener('load', () => {
         });
 
         btnInicio.classList.add('is-active');
-        btnJobs.classList.remove('is-active');
-        btnUs.classList.remove('is-active');
+        if(btnJobs) btnJobs.classList.remove('is-active');
+        if(btnUs) btnUs.classList.remove('is-active');
     });
 
     // Menu buttons
@@ -57,31 +57,35 @@ window.addEventListener('load', () => {
         });
 
         btnInicio.classList.add('is-active');
-        btnJobs.classList.remove('is-active');
-        btnUs.classList.remove('is-active');
+        if(btnJobs) btnJobs.classList.remove('is-active');
+        if(btnUs) btnUs.classList.remove('is-active');
     });
 
-    btnUs.addEventListener('click', () => {
-        window.scrollTo({
-            top: document.querySelector('[data-id="btnUs"]').offsetTop - 50,
-            behavior: 'smooth'
+    if(btnUs) {
+        btnUs.addEventListener('click', () => {
+            window.scrollTo({
+                top: document.querySelector('[data-id="btnUs"]').offsetTop - 50,
+                behavior: 'smooth'
+            });
+    
+            btnInicio.classList.remove('is-active');
+            btnJobs.classList.remove('is-active');
+            btnUs.classList.add('is-active');
         });
+    }
 
-        btnInicio.classList.remove('is-active');
-        btnJobs.classList.remove('is-active');
-        btnUs.classList.add('is-active');
-    });
-
-    btnJobs.addEventListener('click', () => {
-        window.scrollTo({
-            top: document.querySelector('[data-id="btnJobs"]').offsetTop - 50,
-            behavior: 'smooth'
+    if(btnJobs) {
+        btnJobs.addEventListener('click', () => {
+            window.scrollTo({
+                top: document.querySelector('[data-id="btnJobs"]').offsetTop - 50,
+                behavior: 'smooth'
+            });
+    
+            btnInicio.classList.remove('is-active');
+            btnJobs.classList.add('is-active');
+            btnUs.classList.remove('is-active');   
         });
-
-        btnInicio.classList.remove('is-active');
-        btnJobs.classList.add('is-active');
-        btnUs.classList.remove('is-active');   
-    });
+    }
 
     // Dynamic copyright year
     if(((new Date()).getFullYear()) > 2018)
