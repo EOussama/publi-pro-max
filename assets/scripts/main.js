@@ -9,7 +9,10 @@ window.addEventListener('load', () => {
         menu = document.getElementById(navbarBurger.dataset.target),
         headerHeight = document.getElementsByTagName('header')[1],
         scrollBtn = document.querySelector('.fa-chevron-down'),
-        copyrightDate = document.getElementById('copyright-year');
+        copyrightDate = document.getElementById('copyright-year'),
+        btnInicio = document.getElementById('btnInicio'),
+        btnJobs = document.getElementById('btnJobs'),
+        btnUs = document.getElementById('btnUs');
 
     navbarBurger.addEventListener('click', () => {
         navbarBurger.classList.toggle('is-active');
@@ -23,11 +26,15 @@ window.addEventListener('load', () => {
         });
     });
 
-    document.getElementById('btnUs').addEventListener('click', () => {
+    btnUs.addEventListener('click', () => {
         window.scrollTo({
             top: document.querySelector('[data-id="btnUs"]').offsetTop - 50,
             behavior: 'smooth'
         });
+
+        btnInicio.classList.remove('is-active');
+        btnJobs.classList.remove('is-active');
+        btnUs.classList.add('is-active');
     });
 
     document.getElementById('btnContact').addEventListener('click', () => {
@@ -43,6 +50,27 @@ window.addEventListener('load', () => {
             top: 0,
             behavior: 'smooth'
         });
+
+        btnInicio.classList.add('is-active');
+        btnJobs.classList.remove('is-active');
+        btnUs.classList.remove('is-active');
+    });
+
+    btnInicio.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        btnInicio.classList.add('is-active');
+        btnJobs.classList.remove('is-active');
+        btnUs.classList.remove('is-active');
+    });
+
+    btnJobs.addEventListener('click', () => {
+        btnInicio.classList.remove('is-active');
+        btnJobs.classList.add('is-active');
+        btnUs.classList.remove('is-active');   
     });
 
     if(((new Date()).getFullYear()) > 2018)
