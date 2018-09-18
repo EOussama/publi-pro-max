@@ -14,11 +14,13 @@ window.addEventListener('load', () => {
         btnJobs = document.getElementById('btnJobs'),
         btnUs = document.getElementById('btnUs');
 
+    // Navbar burger button
     navbarBurger.addEventListener('click', () => {
         navbarBurger.classList.toggle('is-active');
         menu.classList.toggle('is-active');
     });
 
+    // Hero scroll button
     scrollBtn.addEventListener('click', () => {
         window.scrollTo({
             top: headerHeight.clientHeight,
@@ -26,17 +28,7 @@ window.addEventListener('load', () => {
         });
     });
 
-    btnUs.addEventListener('click', () => {
-        window.scrollTo({
-            top: document.querySelector('[data-id="btnUs"]').offsetTop - 50,
-            behavior: 'smooth'
-        });
-
-        btnInicio.classList.remove('is-active');
-        btnJobs.classList.remove('is-active');
-        btnUs.classList.add('is-active');
-    });
-
+    // Contact modal
     document.getElementById('btnContact').addEventListener('click', () => {
         document.querySelector('.modal').classList.toggle('is-active');
     });
@@ -45,6 +37,7 @@ window.addEventListener('load', () => {
         document.querySelector('.modal').classList.toggle('is-active');
     });
 
+    // Scroll to top button
     document.getElementById('scrollTopBtn').addEventListener('click', () => {
         window.scrollTo({
             top: 0,
@@ -54,6 +47,18 @@ window.addEventListener('load', () => {
         btnInicio.classList.add('is-active');
         btnJobs.classList.remove('is-active');
         btnUs.classList.remove('is-active');
+    });
+
+    // Menu buttons
+    btnUs.addEventListener('click', () => {
+        window.scrollTo({
+            top: document.querySelector('[data-id="btnUs"]').offsetTop - 50,
+            behavior: 'smooth'
+        });
+
+        btnInicio.classList.remove('is-active');
+        btnJobs.classList.remove('is-active');
+        btnUs.classList.add('is-active');
     });
 
     btnInicio.addEventListener('click', () => {
@@ -73,6 +78,7 @@ window.addEventListener('load', () => {
         btnUs.classList.remove('is-active');   
     });
 
+    // Dynamic copyright year
     if(((new Date()).getFullYear()) > 2018)
         copyrightDate.textContent = `2018 - ${(new Date()).getFullYear()}`;
     else
