@@ -12,7 +12,10 @@ window.addEventListener('load', () => {
         copyrightDate = document.getElementById('copyright-year'),
         btnInicio = document.getElementById('btnInicio'),
         btnJobs = document.getElementById('btnJobs'),
-        btnUs = document.getElementById('btnUs');
+        btnUs = document.getElementById('btnUs'),
+        transEn = document.getElementById('langSelectEn'),
+        transSp = document.getElementById('langSelectEs'),
+        transFr = document.getElementById('langSelectFr');
 
     // Navbar burger button
     navbarBurger.addEventListener('click', () => {
@@ -86,6 +89,19 @@ window.addEventListener('load', () => {
             btnUs.classList.remove('is-active');   
         });
     }
+
+    // Translations
+    transEn.addEventListener('click', () => {
+        translate(document.body, dict, 'en');
+    });
+
+    transSp.addEventListener('click', () => {
+        translate(document.body, dict, 'es');
+    });
+
+    transFr.addEventListener('click', () => {
+        translate(document.body, dict, 'fr');
+    });
 
     // Dynamic copyright year
     if(((new Date()).getFullYear()) > 2018)
