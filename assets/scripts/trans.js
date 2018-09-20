@@ -113,5 +113,170 @@ const dict = {
         'en': "Contact information",
         'es': "Información de contacto",
         'fr': "Information de contact"
+    },
+    "Signs/Luminous": {
+        'en': "Signs/Luminous",
+        'es': "Rótulos/Luminosos",
+        'fr': "Signes / Lumineux"
+    },
+    "Vehicle labeling": {
+        'en': "Vehicle labeling",
+        'es': "Rotulación de vehículos",
+        'fr': "Étiquetage des véhicules"
+    },
+    "Corporeal letters": {
+        'en': "Corporeal letters",
+        'es': "Letras Corpóreas",
+        'fr': "Lettres corporelles"
+    },
+    "Vinyl": {
+        'en': "Vinyl",
+        'es': "Vinilos",
+        'fr': "Vinyle"
+    },
+    "The signs or luminous are the best option to give greater visibility to your business, product or service. Being one of the main demands for business on the street and those based on direct customer service.": {
+        'en': "The signs or luminous are the best option to give greater visibility to your business, product or service. Being one of the main demands for business on the street and those based on direct customer service.",
+        'es': "Los rótulos o luminosos son la mejor opción para darle la mayor visibilidad a su negocio, producto o servicio. Siendo uno de los principales reclamos para los negocios a pie de calle  y aquellos que se basan en la atención directa al cliente.",
+        'fr': "Les enseignes lumineuses sont la meilleure option pour donner plus de visibilité à votre entreprise, produit ou service. Être l'une des principales demandes pour les affaires dans la rue et celles basées sur le service client direct."
+    },
+    "For the labels we work with different options and materials, which adapt to the needs of the client and the market.": {
+        'en': "For the labels we work with different options and materials, which adapt to the needs of the client and the market.",
+        'es': "Para los rótulos trabajamos con diversas opciones y materiales, que se adaptan a las necesidades del cliente y del mercado.",
+        'fr': "Pour les étiquettes, nous travaillons avec différentes options et matériaux, qui s'adaptent aux besoins du client et du marché."
+    },
+    "We work with various materials that include": {
+        'en': "We work with various materials that include",
+        'es': "Trabajamos con diversos materiales que incluyen",
+        'fr': "Nous travaillons avec divers matériaux, y compris"
+    },
+    "Methacrylate, Polycarbonate, PVC, Composite, Iron, Aluminum, Wood among others.": {
+        'en': "Methacrylate, Polycarbonate, PVC, Composite, Iron, Aluminum, Wood among others.",
+        'es': "Metacrilato, Policarbonato, PVC, Composite, Hierro, Aluminio, Madera entre otros.",
+        'fr': "Méthacrylate, Polycarbonate, PVC, Composite, Fer, Aluminium, Bois, entre autres."
+    },
+    "The luminous we make are made in different ways, including:": {
+        'en': "The luminous we make are made in different ways, including:",
+        'es': "Los luminosos que fabricamos los hacemos de diferentes formas, que incluyen:",
+        'fr': "Les lumineuses que nous fabriquons sont fabriquées de différentes manières, notamment:"
+    },
+    "We offer the option of lighting in your signs, so that they are visually much more striking.": {
+        'en': "We offer the option of lighting in your signs, so that they are visually much more striking.",
+        'es': "Ofrecemos la opción de la iluminación en sus rótulos, para que visualmente sean mucho más llamativos.",
+        'fr': "Nous offrons la possibilité d'éclairer vos enseignes afin qu'elles soient visuellement beaucoup plus frappantes."
+    },
+    "According to the needs of each client, they are illuminated with fluorescent, neon and LEDS.": {
+        'en': "According to the needs of each client, they are illuminated with fluorescent, neon and LEDS.",
+        'es': "De acuerdo a la necesidad de cada cliente, se iluminan con fluorescentes, neón y LEDS.",
+        'fr': "Selon les besoins de chaque client, ils sont éclairés par des fluorescents, des néons et des LED."
+    },
+    "Drawers": {
+        'en': "Drawers",
+        'es': "Cajones",
+        'fr': "Tiroirs"
+    },
+    "Banners": {
+        'en': "Banners",
+        'es': "Banderolas",
+        'fr': "Bannières"
+    },
+    "Formed": {
+        'en': "Formed",
+        'es': "Formados",
+        'fr': "Formé"
+    },
+    "Illuminated logo": {
+        'en': "Illuminated logo",
+        'es': "Logo iluminado",
+        'fr': "Logo éclairé"
+    },
+    "Backlit": {
+        'en': "Backlit",
+        'es': "Retroiluminados",
+        'fr': "Rétroéclairé"
+    },
+    "Among others": {
+        'en': "Among others",
+        'es': "Entre otros",
+        'fr': "Entre autres"
+    },
+    "Vinyl": {
+        'en': "All on the walls of the castle, decorated with wine, wine, digital printing or letras corpóreas o pintados directamente.",
+        'es': "Todos sus rótulos pueden ser decorados con vinilo de corte, vinilo impresión digital o letras corpóreas o pintados directamente.",
+        'fr': "Tous vos panneaux peuvent être décorés avec des découpes de vinyle, des impressions numériques en vinyle ou des lettres corporelles ou peintes directement."
+    },
+    "The decoration of vehicles is a mobile advertising formula, allows to obtain great visibility of the product or brand represented.": {
+        'en': "The decoration of vehicles is a mobile advertising formula, allows to obtain great visibility of the product or brand represented.",
+        'es': "La decoración de vehículos es una fórmula de publicidad móvil,  permite obtener gran visibilidad del producto o marca representados.",
+        'fr': "La décoration des véhicules est une formule publicitaire mobile, permettant d'obtenir une grande visibilité du produit ou de la marque représentée."
+    },
+    "The experience and professionalism of our team allows us to draw, and make a custom-made suit for each job. We advise, design, produce and install the ideas of labeling of our clients until their materialization.": {
+        'en': "The experience and professionalism of our team allows us to draw, and make a custom-made suit for each job. We advise, design, produce and install the ideas of labeling of our clients until their materialization.",
+        'es': "La experiencia y profesionalidad de nuestro equipo nos permite trazar, y realizar un traje a medida en cada trabajo. Asesoramos, diseñamos, producimos e instalamos  las ideas de rotulación de nuestros clientes hasta su materialización.",
+        'fr': "The experience and professionalism of our team allows us to draw, and make a custom-made suit for each job. We advise, design, produce and install the ideas of labeling of our clients until their materialization."
+    },
+    "In": {
+        'en': "In",
+        'es': "En",
+        'fr': "En"
+    },
+    "under previous study, we provide a national service, with the highest quality guaranteed": {
+        'en': "under previous study, we provide a national service, with the highest quality guaranteed",
+        'es': "bajo estudio previo , damos un servicio nacional, con la máxima calidad garantizada",
+        'fr': "dans le cadre d'une étude précédente, nous fournissons un service national avec la plus haute qualité garantie"
+    },
+    "Letters or corporeal elements are the most elegant and striking solution when choosing a type of direct image to the client, they bring a great distinction to the corporate image of your business or company.": {
+        'en': "Letters or corporeal elements are the most elegant and striking solution when choosing a type of direct image to the client, they bring a great distinction to the corporate image of your business or company.",
+        'es': "letras o elementos corpóreos son la solución más elegante y llamativa a la hora de escoger un tipo de imagen directa al cliente, aportan una gran distinción a la imagen corporativa de su negocio o empresa.",
+        'fr': "Les lettres ou les éléments corporels sont la solution la plus élégante et la plus frappante lors du choix d’un type d’image directe pour le client. Ils apportent une grande distinction à l’image de votre entreprise ou de votre entreprise."
+    },
+    "They are commonly used as exterior signage on facades, although they are increasingly used as part of the brand image indoors, and are usually illuminated (by fluorescent light or LED) but not necessary. There are hundreds of possible combinations to choose from, with different sources, materials, styles, sizes and colors, which can be completely customized according to the corporate image of each business or company.": {
+        'en': "They are commonly used as exterior signage on facades, although they are increasingly used as part of the brand image indoors, and are usually illuminated (by fluorescent light or LED) but not necessary. There are hundreds of possible combinations to choose from, with different sources, materials, styles, sizes and colors, which can be completely customized according to the corporate image of each business or company.",
+        'es': "Se utilizan comúnmente como señalización exterior en fachadas, aunque cada vez se usan más como parte de la imagen de marca en interiores, y suelen estar iluminadas (mediante luz fluorescente o LED) aunque no es necesario. Existen cientos de combinaciones posibles a elegir, contando con las diferentes fuentes, materiales, estilos, tamaños y colores, pudiéndose personalizar completamente de acuerdo con la imagen corporativa de cada negocio o empresa.",
+        'fr': "Ils sont couramment utilisés comme panneaux extérieurs sur les façades, bien qu'ils soient de plus en plus utilisés à l'intérieur de l'image de marque et qu'ils soient généralement éclairés (par une lumière fluorescente ou une LED), mais pas nécessairement. Il existe des centaines de combinaisons possibles, avec différentes sources, matériaux, styles, tailles et couleurs, qui peuvent être entièrement personnalisées en fonction de l’image de chaque entreprise ou société."
+    },
+    "We make all kinds of corporeal letters in different materials for signs and interior decoration.": {
+        'en': "We make all kinds of corporeal letters in different materials for signs and interior decoration.",
+        'es': "Realizamos todo tipo de letras corpóreas en distintos materiales para rótulos y decoración de interiores.",
+        'fr': "Nous fabriquons toutes sortes de lettres corporelles en différents matériaux pour les enseignes et la décoration intérieure."
+    },
+    "In Publi pro-max we can offer:": {
+        'en': "In Publi pro-max we can offer:",
+        'es': "En Publi pro-max podemos ofrecer:",
+        'fr': "Dans Publi pro-max, nous pouvons offrir:"
+    },
+    "The physical letters of aluminum": {
+        'en': "The physical letters of aluminum",
+        'es': "Las letras corpóreas de aluminio",
+        'fr': "Les lettres physiques de l'aluminium"
+    },
+    "The letters cut out of PVC": {
+        'en': "The letters cut out of PVC",
+        'es': "Las letras recortadas de PVC",
+        'fr': "Les lettres découpées en PVC"
+    },
+    "Letters in methacrylate": {
+        'en': "Letters in methacrylate",
+        'es': "Letras en metacrilato",
+        'fr': "Lettres en méthacrylate"
+    },
+    "Cork letters for weddings and specific events.": {
+        'en': "Cork letters for weddings and specific events.",
+        'es': "Letras en corcho para bodas y eventos puntuales.",
+        'fr': "Lettres en liège pour mariages et événements spécifiques."
+    },
+    "They are the simplest option in the range of corporeal letters.": {
+        'en': "They are the simplest option in the range of corporeal letters.",
+        'es': "Son la opción más sencilla de la gama de letras corpóreas.",
+        'fr': "Ils sont l'option la plus simple dans la gamme des lettres corporelles."
+    },
+    "Your company, store or business will definitely win customers with this sign for an economical price. Thicknesses: 3, 5, 10, 16, 19 or 30mm.": {
+        'en': "Your company, store or business will definitely win customers with this sign for an economical price. Thicknesses: 3, 5, 10, 16, 19 or 30mm.",
+        'es': "Tu empresa, tienda o comercio sin duda ganará clientes con este rótulo por un precio económico. Grosores: 3, 5, 10, 16, 19 o 30mm.",
+        'fr': "Votre entreprise, magasin ou entreprise va certainement gagner des clients avec ce signe pour un prix économique. Épaisseurs: 3, 5, 10, 16, 19 ou 30 mm."
+    },
+    "Corpse letters made 100% of methacrylate with the system of front and sides cut individually, and later assembled by means of a soldier. They have a base of pvc of 10, 16cm (depending on the size of the letter) to which the entire electrical system is taken": {
+        'en': "Corpse letters made 100% of methacrylate with the system of front and sides cut individually, and later assembled by means of a soldier. They have a base of pvc of 10, 16cm (depending on the size of the letter) to which the entire electrical system is taken",
+        'es': "Letras corpóreas hechas 100% en metacrilato con el sistema de frente y laterales cortados individualmente, y posteriormente ensamblados mediante soldado. Tienen una base de pvc de 10, 16cm (dependiendo del tamaño de la letra) a la que va cogido todo el sistema eléctrico",
+        'fr': "Les lettres de cadavre constituaient 100% de méthacrylate avec le système du devant et des côtés découpés individuellement, puis assemblés au moyen d'un soldat. Ils ont une base de pvc de 10, 16 cm (en fonction de la taille de la lettre) à laquelle l'ensemble du système électrique est pris"
     }
 };
