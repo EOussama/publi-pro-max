@@ -43,6 +43,21 @@ section.sep {
     background-color: whitesmoke;
 }
 
+/* #region Scrolling Bar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(129, 129, 129);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(109, 109, 109, 0.089);
+}
+/* #endregion */
+
 /* #region scrollTopBtn */
 div#scrollTopBtn {
     animation-duration: 1s;

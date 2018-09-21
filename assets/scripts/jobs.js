@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 
     __images.forEach(__image => {
         __image.addEventListener('click', () => {
-            let __clickedIndex = Number.parseInt(__image.src.slice(__image.src.length - 5, __image.src.length - 4)) - 1;
+            let __clickedIndex = Number.parseInt(__image.src.match(/\d+.jpg/)[0].match(/\d+/)[0]) - 1;
             
             clearInterval(__timerJobs);
             __images.forEach(__img => { __img.classList.remove('is-active'); });
