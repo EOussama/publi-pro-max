@@ -278,5 +278,80 @@ const dict = {
         'en': "Corpse letters made 100% of methacrylate with the system of front and sides cut individually, and later assembled by means of a soldier. They have a base of pvc of 10, 16cm (depending on the size of the letter) to which the entire electrical system is taken",
         'es': "Letras corpóreas hechas 100% en metacrilato con el sistema de frente y laterales cortados individualmente, y posteriormente ensamblados mediante soldado. Tienen una base de pvc de 10, 16cm (dependiendo del tamaño de la letra) a la que va cogido todo el sistema eléctrico",
         'fr': "Les lettres de cadavre constituaient 100% de méthacrylate avec le système du devant et des côtés découpés individuellement, puis assemblés au moyen d'un soldat. Ils ont une base de pvc de 10, 16 cm (en fonction de la taille de la lettre) à laquelle l'ensemble du système électrique est pris"
+    },
+    "They provide character and personality to the space of your choice, reflecting your tastes and preferences and filling it with color and variety of motifs that can range from a particular message to images related to the decorated space and all at a low cost.": {
+        'en': "They provide character and personality to the space of your choice, reflecting your tastes and preferences and filling it with color and variety of motifs that can range from a particular message to images related to the decorated space and all at a low cost.",
+        'es': "Proporcionan carácter y personalidad al espacio de su elección, plasmando sus gustos y preferencias y llenándolo de color y variedad de motivos que pueden ir desde un mensaje en particular hasta imágenes relacionadas con el espacio decorado y todo a un bajo coste.",
+        'fr': "Ils apportent du caractère et de la personnalité à l'espace de votre choix, reflétant vos goûts et vos préférences et le remplissant de couleurs et d'une variété de motifs pouvant aller d'un message particulier à des images liées à l'espace décoré, le tout à moindre coût."
+    },
+    "In Publi pro-max we offer decorative vinyl with worked designs, care and with the best quality and price ratio in the market.": {
+        'en': "In Publi pro-max we offer decorative vinyl with worked designs, care and with the best quality and price ratio in the market.",
+        'es': "En Publi pro-max te ofrecemos los vinilos decorativos con diseños trabajados, cuidados y con la mejor relación calidad y precio del mercado.",
+        'fr': "Dans Publi pro-max, nous proposons du vinyle décoratif avec des designs travaillés, des soins et le meilleur rapport qualité / prix sur le marché."
+    },
+    "That vinyl for shop windows and other types of glass are designed, printed and installed with quality is fundamental for the image of any type of business.": {
+        'en': "That vinyl for shop windows and other types of glass are designed, printed and installed with quality is fundamental for the image of any type of business.",
+        'es': "Que los vinilos para escaparates y otro tipo de cristaleras estén diseñados, impresos e instalados con calidad es fundamental para la imagen de cualquier tipo de negocio.",
+        'fr': "Ce vinyle pour vitrines et autres types de verre est conçu, imprimé et installé avec qualité est fondamental pour l'image de tout type d'entreprise."
+    },
+    "We have a wide range of vinyl, which is adapted to every need and each of our customers.": {
+        'en': "We have a wide range of vinyl, which is adapted to every need and each of our customers.",
+        'es': "Disponemos de una amplia gama de vinilos, que se adapta a toda necesidad y cada uno de nuestros clientes.",
+        'fr': "Nous avons une large gamme de vinyle, adaptée à chaque besoin et à chacun de nos clients."
+    },
+    "Decorative wall decals": {
+        'en': "Decorative wall decals",
+        'es': "Vinilos decorativos para pared",
+        'fr': "Stickers muraux décoratifs"
+    },
+    "Custom vinyls: shop windows, etc.": {
+        'en': "Custom vinyls: shop windows, etc.",
+        'es': "Vinilos personalizados: escaparates, etc.",
+        'fr': "Vinyles personnalisés: vitrines, etc."
+    },
+    "Custom stickers: cutting vinyls and digital printing.": {
+        'en': "Custom stickers: cutting vinyls and digital printing.",
+        'es': "Adhesivos personalizados: vinilos de corte e impresión digital.",
+        'fr': "Autocollants personnalisés: découpe de vinyles et impression numérique."
+    },
+    "Vehicles: All types of labeling is made on vinyl or sticker among others such as:": {
+        'en': "Vehicles: All types of labeling is made on vinyl or sticker among others such as:",
+        'es': "Vehículos: Se realiza todo tipo de rotulación en vinilo o pegatina entre otros como:",
+        'fr': "Véhicules: Tous les types d'étiquetage sont faits sur du vinyle ou sur des autocollants, notamment:"
+    },
+    "Opacity headlights": {
+        'en': "Opacity headlights",
+        'es': "Opacidad faros",
+        'fr': "Phares d'opacité"
+    },
+    "Buses": {
+        'en': "Buses",
+        'es': "Autobuses",
+        'fr': "Bus"
+    },
+    "Commercial Vehicles": {
+        'en': "Commercial Vehicles",
+        'es': "Vehículos comerciales",
+        'fr': "Véhicules utilitaires"
+    },
+    "Wrapping": {
+        'en': "Wrapping",
+        'es': "Wrapping",
+        'fr': "Emballage"
+    },
+    "Tinted windows": {
+        'en': "Tinted windows",
+        'es': "Cristales tintados",
+        'fr': "Cristaux teintés"
+    },
+    "Rallas": {
+        'en': "Rallas",
+        'es': "Rallas",
+        'fr': "Rallas"
+    },
+    "The vinyls or decorative vinyls.": {
+        'en': "The vinyls or decorative vinyls.",
+        'es': "Los vinilos o vinilos decorativos.",
+        'fr': "Les vinyles ou vinyles décoratifs."
     }
 };
