@@ -19,7 +19,7 @@ window.addEventListener('load', () => {
             __jobsIndex = __clickedIndex;
 
             if(__clickedIndex === 0)
-                __images[8].classList.remove('is-active');
+                __images[__images.length - 1].classList.remove('is-active');
             else
                 __images[__clickedIndex - 1].classList.remove('is-active');
 
@@ -34,11 +34,11 @@ window.addEventListener('load', () => {
             __focusedPanelJob.src = __images[__jobsIndex].src;
 
             if(__jobsIndex === 0)
-                __images[8].classList.remove('is-active');
+                __images[__images.length - 1].classList.remove('is-active');
             else
                 __images[__jobsIndex - 1].classList.remove('is-active');
             
-            if(__jobsIndex++ >= 8)
+            if(__jobsIndex++ >= __images.length - 1)
                 __jobsIndex = 0;
         }, 3000);
     }
