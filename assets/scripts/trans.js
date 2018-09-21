@@ -353,5 +353,105 @@ const dict = {
         'en': "The vinyls or decorative vinyls.",
         'es': "Los vinilos o vinilos decorativos.",
         'fr': "Les vinyles ou vinyles décoratifs."
+    },
+    "Without lighting": {
+        'en': "Without lighting",
+        'es': "Sin iluminación",
+        'fr': "Sans éclairage"
+    },
+    "they are a perfect and economical option within the family of the corporeal letters. your": {
+        'en': "they are a perfect and economical option within the family of the corporeal letters. your",
+        'es': "son una opción perfecta y económica dentro de la familia de las letras corpóreas. Tu ",
+        'fr': "ils sont une option parfaite et économique dans la famille des lettres corporelles. Vous"
+    },
+    "company": {
+        'en': "company",
+        'es': "empresa",
+        'fr': "entreprise"
+    },
+    "store": {
+        'en': "store",
+        'es': "tienda",
+        'fr': "boutique"
+    },
+    "deal": {
+        'en': "deal",
+        'es': "negocio",
+        'fr': "affaires"
+    },
+    "or": {
+        'en': "or",
+        'es': "o",
+        'fr': "ou"
+    },
+    "It will convey an elegant and professional image. It is manufactured entirely in welded aluminum and lacquered in the chosen color.": {
+        'en': "It will convey an elegant and professional image. It is manufactured entirely in welded aluminum and lacquered in the chosen color.",
+        'es': "trasmitirá una imagen elegante y profesional. Está fabricada íntegramente en aluminio soldado y lacado en el color elegido.",
+        'fr': "Il véhiculera une image élégante et professionnelle. Il est fabriqué entièrement en aluminium soudé et laqué dans la couleur choisie."
+    },
+    "Long durability at": {
+        'en': "Long durability at",
+        'es': "Larga durabilidad al",
+        'fr': "Longue durabilité à"
+    },
+    "exterior": {
+        'en': "exterior",
+        'es': "exterior",
+        'fr': "extérieur"
+    },
+    "With": {
+        'en': "With",
+        'es': "Con",
+        'fr': "Avec"
+    },
+    "illumination": {
+        'en': "illumination",
+        'es': "iluminación",
+        'fr': "éclairage"
+    },
+    "they are one of the most elegant signage options. You will get your": {
+        'en': "they are one of the most elegant signage options. You will get your",
+        'es': "son una de las opciones de rotulación más elegantes. Conseguirás que tu",
+        'fr': "elles sont l'une des options de signalisation les plus élégantes. Vous obtiendrez votre"
+    },
+    "transmit an exceptional and striking image.": {
+        'en': "transmit an exceptional and striking image.",
+        'es': "trasmita una imagen excepcional y llamativa.",
+        'fr': "transmettre une image exceptionnelle et frappante."
+    },
+    "Corporeal letter": {
+        'en': "Corporeal letter",
+        'es': "Letra corpórea",
+        'fr': "Lettre corporelle"
+    },
+    "Aluminium laqué, façade en méthacrylate à la couleur choisie et éclairage à led....": {
+        'en': "Aluminium laqué, façade en méthacrylate à la couleur choisie et éclairage à led....",
+        'es': "de aluminio lacado, frontal de metacrilato al color elegido e iluminación led.",
+        'fr': "Aluminium laqué, façade en méthacrylate à la couleur choisie et éclairage à led."
+    },
+    "The polystyrene letters": {
+        'en': "The polystyrene letters",
+        'es': "Las letras de poliestireno",
+        'fr': "The polystyrene letters"
+    },
+    "porexpan or cork for weddings": {
+        'en': "porexpan or cork for weddings",
+        'es': "porexpán o corcho para bodas",
+        'fr': "porexpan ou liège pour les mariages"
+    },
+    "they are the latest fashion for the photos of your link to be original and never seen. You will also have a great time with your guests making photos. Light, economical and enormous: it is what differentiates": {
+        'en': "they are the latest fashion for the photos of your link to be original and never seen. You will also have a great time with your guests making photos. Light, economical and enormous: it is what differentiates",
+        'es': "son la última moda para que las fotos de tu enlace sean originales y nunca vistas. Además te lo pasarás bomba con tus invitados haciéndote fotos. Ligeras, económicas y enormes: es lo que diferencia las",
+        'fr': "ils sont la dernière mode pour que les photos de votre lien soient originales et jamais vues. Vous passerez également un bon moment avec vos invités en faisant des photos. Léger, économique et énorme: c'est ce qui différencie"
+    },
+    "letters of porexpan or polystyrene": {
+        'en': "letters of porexpan or polystyrene",
+        'es': "letras de porexpán o poliestireno",
+        'fr': "lettres de porexpan ou de polystyrène"
+    },
+    "expanded from other materials. Choose these letters if you want to impact at a very low cost.": {
+        'en': "expanded from other materials. Choose these letters if you want to impact at a very low cost.",
+        'es': "expandido de otros materiales. Elige estas letras si quieres impactar a un coste muy bajo.",
+        'fr': "élargi à partir d'autres matériaux. Choisissez ces lettres si vous souhaitez avoir un impact à très faible coût."
     }
 };
