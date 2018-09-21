@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     var index = 1;
 
     setInterval(() => {
-        if(index >= 10) {
+        if(index >= 9) {
             index = 1;
             carousel.style.top = '0';
         } else

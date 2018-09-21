@@ -26,6 +26,6 @@ li.carousel-item {
 li.carousel-item > img {
     filter: grayscale(100%) blur(2px);
     height: 100%;
-    opacity: .4;
+    opacity: .8;
     width: 100%;
 }
