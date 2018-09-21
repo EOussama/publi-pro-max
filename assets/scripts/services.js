@@ -3,7 +3,10 @@ window.addEventListener('load', () => {
         btnRotulos = document.getElementById('btnRetulos'),
         btnRotulicion = document.getElementById('btnRetulocion'),
         btnLetras = document.getElementById('btnLetras'),
-        btnVinilos = document.getElementById('btnVinilos');
+        btnVinilos = document.getElementById('btnVinilos'),
+        btnPrev = document.querySelector('.fa.fa-chevron-left'),
+        btnNext = document.querySelector('.fa.fa-chevron-right'),
+        stackImgs = document.querySelectorAll('section img');
 
     btnRotulos.addEventListener('click', () => {
         window.scrollTo({
@@ -42,5 +45,23 @@ window.addEventListener('load', () => {
 
     document.querySelector('.images.modal .modal-close').addEventListener('click', () => {
         document.querySelector('.images.modal').classList.remove('is-active');
+    });
+
+    btnPrev.addEventListener('click', () => {
+        for(let i = 0; i < stackImgs.length; i++) {
+            if(document.querySelector('.images.modal img').src === stackImgs[i].src && i !== 0) {
+                document.querySelector('.images.modal img').src = stackImgs[i - 1].src;
+                break;
+            }
+        }
+    });
+
+    btnNext.addEventListener('click', () => {
+        for(let i = 0; i < stackImgs.length; i++) {
+            if(document.querySelector('.images.modal img').src === stackImgs[i].src && i !== stackImgs.length - 1) {
+                document.querySelector('.images.modal img').src = stackImgs[i + 1].src;
+                break;
+            }
+        }
     });
 })
