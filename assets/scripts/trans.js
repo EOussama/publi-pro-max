@@ -51,7 +51,7 @@ const dict = {
     },
     "All in Advertising": {
         'en': "All in Advertising",
-        'es': "todo en publicidad",
+        'es': "todo en rotulación u publicidad",
         'fr': "Tout dans la publicité"
     },
     "Send a message": {
