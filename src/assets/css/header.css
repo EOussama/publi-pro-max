@@ -71,25 +71,47 @@ header div.logo-wrapper {
 }
 
 header div.logo-wrapper img#logo {
+    left: -50px;
+    opacity: 0;
+    position: relative;
     width: 300px;
 }
 
 header div.logo-wrapper h4#slogan {
     color: var(--color-gray);
     font-weight: 100;
+    opacity: 0;
+    position: relative;
+    right: -50px;
     text-transform: uppercase;
 }
 
 header div.logo-wrapper i#scroll-down-btn {
     color: var(--color-gray);
     cursor: pointer;
-    opacity: .2;
+    opacity: 0;
+    position: relative;
+    top: -50px;
     transition-duration: .3s;
     transition-property: opacity;
 }
 
-header div.logo-wrapper i#scroll-down-btn:hover {
-    opacity: .6;
+header div.logo-wrapper i#scroll-down-btn.wiggle {
+    animation-direction: alternate-reverse;
+    animation-duration: 1s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-name: wiggle;
+}
+
+@keyframes wiggle {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 10px;
+    }
 }
 
 /* #endregion */

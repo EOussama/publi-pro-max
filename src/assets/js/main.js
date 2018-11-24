@@ -64,13 +64,31 @@ $(document).ready(() => {
     // #endregion
 
     // #region Loader
-    
+
     $(window).scrollTop(0);
 
     setTimeout(() => {
         $('div#loader div.loader').removeClass('active');
         $('div#loader').css('display', 'none');
         $('body').css('overflow', 'auto');
+
+        // Intro animations.
+        $('img#logo').animate({
+            left: 0,
+            opacity: 1
+        }, 1000);
+
+        $('h4#slogan').delay(800).animate({
+            right: 0,
+            opacity: 1
+        }, 1000);
+
+        $('i#scroll-down-btn').delay(1200).animate({
+            top: 0,
+            opacity: .4
+        }, 1000, () => {
+            $('i#scroll-down-btn').addClass('wiggle');
+        });
     }, 1000);
 
     // #endregion
