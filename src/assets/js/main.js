@@ -5,11 +5,11 @@ $(document).ready(() => {
 
     // Initializing the services dropdown.
     $('#services-dropdown').dropdown();
-    $('#services-burger-dropdown').dropdown();
+    $('#services-burger-dropdown').dropdown({ direction: 'downward' });
 
     // Initializing the languages' dropdown.
     $('#languages-dropdown').dropdown();
-    $('#languages-burger-dropdown').dropdown();
+    $('#languages-burger-dropdown').dropdown({ direction: 'downward' });
     $('#languages-dropdown .menu .item:first-of-type').click();
 
     // #endregion
@@ -24,9 +24,8 @@ $(document).ready(() => {
 
     // #region Burger menu
 
-    $('a#burger-btn').on('click', () => {
-        $('#burger-menu').sidebar('toggle');
-    });
+    $('#burger-menu').sidebar({ transition: 'overlay' });
+    $('#burger-menu').sidebar('attach events', 'a#burger-btn');
 
     // #endregion
 

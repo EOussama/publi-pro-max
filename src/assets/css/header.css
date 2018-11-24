@@ -149,6 +149,10 @@ header div.logo-wrapper i#scroll-down-btn.wiggle {
         display: block !important;
     }
 
+    nav#burger-menu {
+        overflow: visible !important;
+    }
+
     header div.logo-wrapper img#logo {
         width: 200px;
     }
