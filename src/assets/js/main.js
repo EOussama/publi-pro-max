@@ -1,16 +1,15 @@
 $(document).ready(() => {
-    const
-        navbar = $('nav'),
-        footerTop = $('footer').offset().top,
-        headerHeight = navbar.outerHeight() + $('header').outerHeight();
+    const navbar = $('nav#default-menu');
 
     // #region Dropdowns
 
     // Initializing the services dropdown.
     $('#services-dropdown').dropdown();
+    $('#services-burger-dropdown').dropdown();
 
     // Initializing the languages' dropdown.
     $('#languages-dropdown').dropdown();
+    $('#languages-burger-dropdown').dropdown();
     $('#languages-dropdown .menu .item:first-of-type').click();
 
     // #endregion
@@ -23,11 +22,19 @@ $(document).ready(() => {
     });
     // #endregion
 
+    // #region Burger menu
+
+    $('a#burger-btn').on('click', () => {
+        $('#burger-menu').sidebar('toggle');
+    });
+
+    // #endregion
+
     // #region Scroll
 
     $('i#scroll-down-btn').on('click', () => {
         $('html').animate({
-            scrollTop: headerHeight + 2
+            scrollTop: $('header').outerHeight() + 2
         }, 500);
     });
 
@@ -37,14 +44,26 @@ $(document).ready(() => {
         }, 500);
     });
 
+    $('a#home-burger-btn').on('click', () => {
+        $('html').animate({
+            scrollTop: 0
+        }, 500);
+    });
+
     $('a#about-btn').on('click', () => {
         $('html').animate({
-            scrollTop: footerTop
+            scrollTop: $('footer').offset().top
+        }, 500);
+    });
+
+    $('a#about-burger-btn').on('click', () => {
+        $('html').animate({
+            scrollTop: $('footer').offset().top
         }, 500);
     });
 
     $(window).on('scroll', () => {
-        if ($(window).scrollTop() >= headerHeight) {
+        if ($(window).scrollTop() >= $('header').outerHeight()) {
             navbar.addClass('sticky');
         } else {
             navbar.removeClass('sticky');
@@ -64,8 +83,6 @@ $(document).ready(() => {
     // #endregion
 
     // #region Loader
-
-    
 
     setTimeout(() => {
         $('div#loader div.loader').removeClass('active');
@@ -90,6 +107,13 @@ $(document).ready(() => {
         });
 
         $(navbar).delay(2500).animate({
+            opacity: 1,
+            top: 0
+        }, 500, () => {
+            $('body').css('overflow-y', 'auto');
+        });
+
+        $('nav#burger-btn-menu').delay(2500).animate({
             opacity: 1,
             top: 0
         }, 500, () => {

@@ -51,3 +51,9 @@ footer div.copyright {
 }
 
 /* #endregion */
+
+@media screen and (max-width: 766px) {
+    iframe#map {
+        height: 250px !important;
+    }
+}
