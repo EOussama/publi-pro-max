@@ -1,4 +1,9 @@
 $(document).ready(() => {
+    const
+        navbar = $('nav'),
+        footerTop = $('footer').offset().top,
+        headerHeight = navbar.outerHeight() + $('header').outerHeight();
+
     // #region Dropdowns
 
     // Initializing the services dropdown.
@@ -22,8 +27,28 @@ $(document).ready(() => {
 
     $('i#scroll-down-btn').on('click', () => {
         $('html').animate({
-            scrollTop: ($('nav').outerHeight() + $('header').outerHeight() + 2)
+            scrollTop: headerHeight + 2
         }, 500);
+    });
+
+    $('a#home-btn').on('click', () => {
+        $('html').animate({
+            scrollTop: 0
+        }, 500);
+    });
+
+    $('a#about-btn').on('click', () => {
+        $('html').animate({
+            scrollTop: footerTop
+        }, 500);
+    });
+
+    $(window).on('scroll', () => {
+        if ($(window).scrollTop() >= headerHeight) {
+            navbar.addClass('sticky');
+        } else {
+            navbar.removeClass('sticky');
+        }
     });
 
     // #endregion

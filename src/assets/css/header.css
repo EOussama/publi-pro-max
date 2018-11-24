@@ -1,0 +1,94 @@
+/* #region Nav */
+
+nav {
+    margin-bottom: 0 !important;
+}
+
+nav span.website-title {
+    font-weight: bold;
+}
+
+nav.sticky {
+    animation-duration: .3s;
+    animation-name: navbar-reveal;
+    left: 0;
+    position: fixed !important;
+    width: 100%;
+}
+
+@keyframes navbar-reveal {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+/* #endregion */
+
+/* #region Header */
+
+header {
+    height: 95%;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+/* #endregion */
+
+/* #region Carousel */
+
+header div#header-carousel {
+    z-index: -1;
+}
+
+header div#header-carousel img {
+    filter: grayscale(80%) blur(5px);
+    opacity: .4;
+    width: 100%;
+}
+
+/* #endregion */
+
+/* #region Logo */
+
+header div.logo-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header div.logo-wrapper img#logo {
+    width: 300px;
+}
+
+header div.logo-wrapper h4#slogan {
+    color: var(--color-gray);
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+header div.logo-wrapper i#scroll-down-btn {
+    color: var(--color-gray);
+    cursor: pointer;
+    opacity: .2;
+    transition-duration: .3s;
+    transition-property: opacity;
+}
+
+header div.logo-wrapper i#scroll-down-btn:hover {
+    opacity: .6;
+}
+
+/* #endregion */

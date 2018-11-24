@@ -1,0 +1,31 @@
+/* #region Footer */
+
+footer {
+    margin: 50px 0 0 0 !important;
+    padding: 100px 0 100px 0 !important;
+}
+
+/* #endregion */
+
+/* #region Contact information */
+
+div.item i, div.item div.header {
+    color: var(--color-gray) !important;
+}
+
+div.item div.header small {
+    color: var(--color-gray-light) !important;
+}
+
+/* #endregion */
+
+/* #region Map */
+
+footer iframe#map {
+    border: none;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 2px 3px var(--color-gray-light);
+}
+
+/* #ednregion */
