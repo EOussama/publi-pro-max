@@ -52,4 +52,14 @@ $(document).ready(() => {
     });
 
     // #endregion
+
+    // #region Copyright
+
+    const
+        currentYear = (new Date()).getFullYear(),
+        copyrightYearString = (currentYear > 2018 ? `2018 - ${ currentYear }` : '2018');
+
+    $('span#copyright-year').text(copyrightYearString);
+
+    // #endregion
 });

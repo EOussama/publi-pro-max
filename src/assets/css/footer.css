@@ -2,7 +2,7 @@
 
 footer {
     margin: 50px 0 0 0 !important;
-    padding: 100px 0 100px 0 !important;
+    padding: 100px 0 140px 0 !important;
 }
 
 /* #endregion */
@@ -29,3 +29,16 @@ footer iframe#map {
 }
 
 /* #ednregion */
+
+/* #region Copyright */
+
+footer div.copyright {
+    bottom: 0;
+    color: var(--color-gray);
+    left: 0;
+    position: absolute !important;
+    text-align: center;
+    width: 100%;
+}
+
+/* #endregion */
