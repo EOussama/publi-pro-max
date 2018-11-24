@@ -1,7 +1,7 @@
 /* #region Nav */
 
 nav {
-    margin-bottom: 0 !important;
+    margin: 0 !important;
 }
 
 nav span.website-title {
@@ -13,7 +13,8 @@ nav.sticky {
     animation-name: navbar-reveal;
     left: 0;
     position: fixed !important;
-    width: 100%;
+    width: 100vw;
+    z-index: 10;
 }
 
 @keyframes navbar-reveal {

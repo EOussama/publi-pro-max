@@ -62,4 +62,16 @@ $(document).ready(() => {
     $('span#copyright-year').text(copyrightYearString);
 
     // #endregion
+
+    // #region Loader
+    
+    $(window).scrollTop(0);
+
+    setTimeout(() => {
+        $('div#loader div.loader').removeClass('active');
+        $('div#loader').css('display', 'none');
+        $('body').css('overflow', 'auto');
+    }, 1000);
+
+    // #endregion
 });

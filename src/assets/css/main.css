@@ -5,6 +5,10 @@
     --color-gray-light: #6d6d6d5d;
 }
 
+body {
+    overflow: hidden;
+}
+
 /* #region Scrolling Bar */
 
 ::-webkit-scrollbar {
@@ -18,6 +22,21 @@
 
 ::-webkit-scrollbar-track {
     background-color: var(--color-light);
+}
+
+/* #endregion */
+
+/* #region Loader */
+
+div#loader {
+    background-color: #d6d6d6;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
 }
 
 /* #endregion */
