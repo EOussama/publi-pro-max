@@ -65,31 +65,41 @@ $(document).ready(() => {
 
     // #region Loader
 
-    $(window).scrollTop(0);
+    
 
     setTimeout(() => {
         $('div#loader div.loader').removeClass('active');
         $('div#loader').css('display', 'none');
-        $('body').css('overflow', 'auto');
 
         // Intro animations.
         $('img#logo').animate({
-            left: 0,
-            opacity: 1
+            opacity: 1,
+            left: 0
         }, 1000);
 
         $('h4#slogan').delay(800).animate({
-            right: 0,
-            opacity: 1
+            opacity: 1,
+            right: 0
         }, 1000);
 
         $('i#scroll-down-btn').delay(1200).animate({
-            top: 0,
-            opacity: .4
+            opacity: .4,
+            top: 0
         }, 1000, () => {
             $('i#scroll-down-btn').addClass('wiggle');
+        });
+
+        $(navbar).delay(2500).animate({
+            opacity: 1,
+            top: 0
+        }, 500, () => {
+            $('body').css('overflow-y', 'auto');
         });
     }, 1000);
 
     // #endregion
+});
+
+window.addEventListener('beforeunload', () => {
+    window.scrollTo(0,0);
 });

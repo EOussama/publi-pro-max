@@ -1,7 +1,12 @@
 /* #region Nav */
 
 nav {
+    left: 0;
     margin: 0 !important;
+    opacity: 0;
+    position: absolute;
+    top: -50px;
+    width: 100vw;
 }
 
 nav span.website-title {
@@ -32,7 +37,7 @@ nav.sticky {
 /* #region Header */
 
 header {
-    height: 95%;
+    height: 100%;
     margin-bottom: 50px;
     overflow: hidden;
     position: relative;
@@ -48,9 +53,10 @@ header div#header-carousel {
 }
 
 header div#header-carousel img {
+    height: 102vh;
     filter: grayscale(80%) blur(5px);
     opacity: .4;
-    width: 100%;
+    width: 100vw;
 }
 
 /* #endregion */
