@@ -74,6 +74,7 @@ header div#header-carousel img {
     height: 102vh;
     filter: grayscale(80%) blur(2px);
     opacity: .4;
+    transform: scale(1.02);
     width: 100vw;
 }
 
@@ -118,6 +119,10 @@ header div.logo-wrapper i#scroll-down-btn {
     top: -50px;
     transition-duration: .3s;
     transition-property: opacity;
+}
+
+header div.logo-wrapper i#scroll-down-btn:hover {
+    opacity: .6 !important;
 }
 
 header div.logo-wrapper i#scroll-down-btn.wiggle {

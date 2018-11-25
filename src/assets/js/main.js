@@ -99,7 +99,7 @@ $(document).ready(() => {
         }, 1000);
 
         $('i#scroll-down-btn').delay(1200).animate({
-            opacity: .4,
+            opacity: .3,
             top: 0
         }, 1000, () => {
             $('i#scroll-down-btn').addClass('wiggle');
