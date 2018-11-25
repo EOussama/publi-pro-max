@@ -71,6 +71,16 @@ $(document).ready(() => {
 
     // #endregion
 
+    // #region Scroll reveal
+
+    ScrollReveal().reveal('section#creative', {
+        delay: 200,
+        distance: '30%',
+        origin: 'bottom'
+    });
+
+    // #endregion
+
     // #region Copyright
 
     const
