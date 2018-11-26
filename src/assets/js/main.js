@@ -14,11 +14,18 @@ $(document).ready(() => {
 
     // #endregion
 
-    // #region Carousel
+    // #region Carousels
     $('#header-carousel').slick({
         autoplay: true,
         autoplaySpeed: 5000,
         draggable: false
+    });
+
+    $('#jobs-carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        draggable: true,
+        dots: true
     });
     // #endregion
 
