@@ -4,8 +4,8 @@ $(document).ready(() => {
     // #region Dropdowns
 
     // Initializing the services dropdown.
-    $('#services-dropdown').dropdown();
-    $('#services-burger-dropdown').dropdown({ direction: 'downward' });
+    $('#services-dropdown').dropdown({ action: 'hide' });
+    $('#services-burger-dropdown').dropdown({ direction: 'downward', action: 'hide' });
 
     // Initializing the languages' dropdown.
     $('#languages-dropdown').dropdown();
