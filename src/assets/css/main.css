@@ -266,6 +266,32 @@ div#loader {
     section#jobs div#jobs-carousel img {
         height: 400px;
     }
+
+    section#services div.service-wrapper div.service-info {
+        mask-image: linear-gradient(to bottom, black, transparent 85%);
+        -webkit-mask-image: linear-gradient(to bottom, black, transparent 85%);
+        -o-mask-image: linear-gradient(to bottom, black, transparent 85%);
+        -ms-mask-image: linear-gradient(to bottom, black, transparent 85%);
+        -moz-mask-image: linear-gradient(to bottom, black, transparent 85%);
+
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+        height: 20%;
+        top: -1px;
+        transition-duration: .3s;
+        transition-property: clip-path height;
+        width: 100%;
+    }
+
+    section#services div.service-wrapper div.service-info:hover {
+        mask-image: linear-gradient(to bottom, black, black);
+        -webkit-mask-image: linear-gradient(to bottom, black, black);
+        -o-mask-image: linear-gradient(to bottom, black, black);
+        -ms-mask-image: linear-gradient(to bottom, black, black);
+        -moz-mask-image: linear-gradient(to bottom, black, black);
+        
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        height: 101%;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 766px) {
@@ -289,6 +315,32 @@ div#loader {
 
     section#jobs div#jobs-carousel img {
         height: 360px;
+    }
+
+    section#services div.service-wrapper div.service-info {
+        mask-image: linear-gradient(to bottom, black, transparent 60%);
+        -webkit-mask-image: linear-gradient(to bottom, black, transparent 60%);
+        -o-mask-image: linear-gradient(to bottom, black, transparent 60%);
+        -ms-mask-image: linear-gradient(to bottom, black, transparent 60%);
+        -moz-mask-image: linear-gradient(to bottom, black, transparent 60%);
+
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+        height: 20%;
+        top: -1px;
+        transition-duration: .3s;
+        transition-property: clip-path height;
+        width: 100%;
+    }
+
+    section#services div.service-wrapper div.service-info:hover {
+        mask-image: linear-gradient(to bottom, black, black);
+        -webkit-mask-image: linear-gradient(to bottom, black, black);
+        -o-mask-image: linear-gradient(to bottom, black, black);
+        -ms-mask-image: linear-gradient(to bottom, black, black);
+        -moz-mask-image: linear-gradient(to bottom, black, black);
+        
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        height: 101%;
     }
 }
 
