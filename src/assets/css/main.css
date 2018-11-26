@@ -259,6 +259,20 @@ div#loader {
 /* #endregion */
 
 @media screen and (max-width: 479px) {
+    section#creative {
+        background-image: none;
+        padding: 20px 10px !important;
+    }
+
+    section#creative h2 {
+        font-size: 25px;
+        margin: 50px 0 100px 0;
+    }
+
+    section#creative div.grid div.column {
+        margin-bottom: 60px !important;
+    }
+    
     section#jobs div#jobs-carousel {
         height: 480px;
     }
