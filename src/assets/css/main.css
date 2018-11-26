@@ -125,10 +125,12 @@ section#jobs:hover div#jobs-carousel img {
 section#services {
     height: auto;
     margin-top: 200px;
+    overflow: hidden;
 }
 
 section#services div.service-wrapper {
     border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--color-gray-light);
     height: 500px;
     overflow: hidden;
     position: relative;
@@ -187,6 +189,13 @@ section#services:hover div.service-wrapper div.service-carousel img {
 div#service-letras div.service-letras-wrapper {
     background-color: var(--color-gray-light);
     padding: 20px;
+}
+
+div#service-letras div.service-letras-wrapper div.items {
+    border-radius: 5px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* #endregion */

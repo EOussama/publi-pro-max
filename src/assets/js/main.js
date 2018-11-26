@@ -39,6 +39,12 @@ $(document).ready(() => {
         autoplaySpeed: 5000,
         draggable: true
     });
+
+    $('#service-vinilos div.service-carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        draggable: true
+    });
     // #endregion
 
     // #region Burger menu
@@ -122,6 +128,41 @@ $(document).ready(() => {
         distance: '10%',
         duration: 1000,
         origin: 'bottom'
+    });
+
+    ScrollReveal().reveal('section#services', {
+        delay: 200,
+        distance: '10%',
+        duration: 1000,
+        origin: 'bottom'
+    });
+
+    ScrollReveal().reveal('div#service-rotulos', {
+        delay: 200,
+        distance: '10%',
+        duration: 1000,
+        origin: 'left'
+    });
+
+    ScrollReveal().reveal('div#service-rotulacion', {
+        delay: 200,
+        distance: '10%',
+        duration: 1000,
+        origin: 'left'
+    });
+
+    ScrollReveal().reveal('div#service-letras', {
+        delay: 200,
+        distance: '10%',
+        duration: 1000,
+        origin: 'left'
+    });
+
+    ScrollReveal().reveal('div#service-vinilos', {
+        delay: 200,
+        distance: '10%',
+        duration: 1000,
+        origin: 'left'
     });
 
     // #endregion
