@@ -186,9 +186,35 @@ section#services:hover div.service-wrapper div.service-carousel img {
     filter: grayscale(0%);
 }
 
+div#service-letras {
+    position: relative;
+}
+
 div#service-letras div.service-letras-wrapper {
-    background-color: var(--color-gray-light);
+    background-color: #dfdfdf5d;
+    height: 105%;
     padding: 20px;
+    position: relative;
+}
+
+div#service-letras div.service-letras-wrapper::after {
+    mask-image: linear-gradient(to right, black, transparent 50%);
+    -webkit-mask-image: linear-gradient(to right, black, transparent 50%);
+    -o-mask-image: linear-gradient(to right, black, transparent 50%);
+    -ms-mask-image: linear-gradient(to right, black, transparent 50%);
+    -moz-mask-image: linear-gradient(to right, black, transparent 50%);
+
+    background-image: url(../img/backgrounds/letras-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
 }
 
 div#service-letras div.service-letras-wrapper div.items {
