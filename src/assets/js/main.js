@@ -68,6 +68,18 @@ $(document).ready(() => {
         }, 500);
     });
 
+    $('a#jobs-btn').on('click', () => {
+        $('html').animate({
+            scrollTop: $('#jobs-carousel').offset().top - 150
+        }, 500);
+    });
+
+    $('a#jobs-burger-btn').on('click', () => {
+        $('html').animate({
+            scrollTop: $('#jobs-carousel').offset().top - 150
+        }, 500);
+    });
+
     $(window).on('scroll', () => {
         if ($(window).scrollTop() >= $('header').outerHeight()) {
             navbar.addClass('sticky');
