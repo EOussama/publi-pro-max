@@ -1,0 +1,307 @@
+:root {
+    --primary-color: #e30613;
+    --secondary-color: #010101;
+    --backup-color: #dadada;
+}
+
+::selection {
+    background-color: rgb(238, 238, 238);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#bgCover {
+    background-image: url(../images/bg.jpeg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: overlay;
+    filter: grayscale(100%);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    opacity: .03;
+    width: 100%;
+    z-index: -1;
+}
+
+section.sep {
+    margin: 200px 0px;
+    padding: 80px 120px;
+}
+
+.modal .control input {
+    margin-bottom: 20px;
+}
+
+#map {
+    width: 400px;
+    height: 250px;
+    background-color: whitesmoke;
+}
+
+/* #region Scrolling Bar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(129, 129, 129);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(109, 109, 109, 0.089);
+}
+/* #endregion */
+
+/* #region scrollTopBtn */
+div#scrollTopBtn {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: animScrommTopBtn;
+    background-color: #3b3333;
+    border-radius: 50%;
+    bottom: -50%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    opacity: .5;
+    position: fixed;
+    right: 50px;
+    transition-property: opacity;
+    transition-duration: .3s;
+    width: 50px;
+    z-index: 8;
+}
+
+div#scrollTopBtn:hover {
+    opacity: 1;
+}
+
+div#scrollTopBtn i.fa {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+@keyframes animScrommTopBtn {
+    to {
+        bottom: 50px;
+    }
+}
+/* #endregion */
+
+/* #region navbar */
+nav.is-transparent {
+    background-color: transparent;
+}
+
+div.navbar-start, div.navbar-end {
+    margin-left: 30px;
+}
+
+div.navbar-end {
+    margin-right: 30px;
+}
+
+nav.navbar a {
+    transition-property: color;
+    transition-duration: .3s;
+}
+
+nav.navbar a:hover {
+    color: hsl(0, 0%, 29%) !important;
+}
+
+nav.navbar {
+    top: -50px !important;
+    animation-name: slideDown;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes slideDown {
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+i.fa {
+    margin-right: 5px;
+}
+/* #endregion */
+
+/* #region Logo */
+#logo {
+    position: relative;
+    left: -35px;
+    animation-name: slideLeft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: scale(.95);
+}
+
+#slogan {
+    position: relative;
+    right: -35px;
+    animation-name: slideRight;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    letter-spacing: 7px;
+    transform: scale(.95);
+}
+
+@media (max-width: 450px) {
+    #logo {
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    #logo {
+        width: 200px;
+    }
+}
+
+@keyframes slideLeft {
+    to {
+        left: 0;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideRight {
+    to {
+        right: 0;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* #endregion */
+
+/* #region ScrollBtn */
+.fa-chevron-down {
+    position: relative;
+    top: -15px;
+    opacity: 0;
+    cursor: pointer;
+    transition-property: opacity;
+    transition-duration: .3s;
+    animation-name: reveal;
+    animation-duration: .5s;
+    animation-delay: 1.2s;
+    animation-fill-mode: both;
+}
+
+@keyframes reveal {
+    to {
+        opacity: .5;
+        top: 0;
+    }
+}
+/* #endregion */
+
+/* #region Footer */
+.copyright {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30px);
+}
+
+#contact-info {
+    padding-top: 40px;
+}
+/* #endregion */
+
+/* #region loadingPanel */
+
+.loadingPanel {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(231, 231, 231);
+    z-index: 99;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
+
+.loadingPanel .cont {
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.loadingPanel span {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(187, 187, 187);
+    animation-name: load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform: scale(0);
+}
+
+.loadingPanel .inner {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loadingPanel h4 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+    color: rgb(187, 187, 187);
+    margin-bottom: 10px;
+}
+
+@keyframes load {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }   
+}
+/* #endregion */
+
+/* #region header */
+header > div.hero-body {
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.2);
+}
+/* #endregion */
+
+/* #region creative-section */
+#creative-section {
+    background-image: url(../images/creative-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(70%);
+}
+/* #endregion */

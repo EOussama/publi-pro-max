@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="src/assets/img/logo.png" alt="Publi Max Pro logo" width="300px">
+    <img src="assets/images/logo.png" alt="Publi Max Pro logo" width="300px">
 </p>
 <h1 align="center">
     Public Max Pro

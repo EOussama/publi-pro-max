@@ -51,7 +51,7 @@ const dict = {
     },
     "All in Advertising": {
         'en': "All in Advertising",
-        'es': "todo en rotulación y publicidad",
+        'es': "todo en rotulación u publicidad",
         'fr': "Tout dans la publicité"
     },
     "Send a message": {
@@ -86,7 +86,7 @@ const dict = {
     },
     "Young, dynamic team, highly qualified and with years of experience in the sector, with a clear, professional philosophy and an excellent deal with the client. And that is what we have for the installation and application of all kinds of graphic elements.": {
         'en': "Young, dynamic team, highly qualified and with years of experience in the sector, with a clear, professional philosophy and an excellent deal with the client. And that is what we have for the installation and application of all kinds of graphic elements.",
-        'es': "Equipo joven, dinámico, altamente cualificado y con años de experiencia en el sector, con una ﬁlosofía clara, profesional y con un trato excelente ante el cliente. Y es con el que contamos para la instalación y aplicación de todo tipo de elementos gráficos.",
+        'es': "Equipo joven, dinámico, altamente cualificado y con años de experiencia en el sector, con una ﬁlosofía clara, profesional y con un trato excelente ante el cliente.  Y es con el que contamos para  la instalación y aplicación de todo tipo de elementos gráficos.",
         'fr': "Une équipe jeune et dynamique, hautement qualifiée et ayant des années d'expérience dans le secteur, avec une philosophie claire et professionnelle et une excellente entente avec le client. Et c'est ce que nous avons pour l'installation et l'application de toutes sortes d'éléments graphiques."
     },
     "With the proposal to offer an excellent service, we have access to a wide range of clients in the management, production and logistic areas. A global servicio that allows guaranteed to el el mejor producto.": {
@@ -132,11 +132,11 @@ const dict = {
     "Vinyl": {
         'en': "Vinyl",
         'es': "Vinilos",
-        'fr': "Vinyles"
+        'fr': "Vinyle"
     },
     "The signs or luminous are the best option to give greater visibility to your business, product or service. Being one of the main demands for business on the street and those based on direct customer service.": {
         'en': "The signs or luminous are the best option to give greater visibility to your business, product or service. Being one of the main demands for business on the street and those based on direct customer service.",
-        'es': "Los rótulos o luminosos son la mejor opción para darle la mayor visibilidad a su negocio, producto o servicio. Siendo uno de los principales reclamos para los negocios a pie de calle y aquellos que se basan en la atención directa al cliente.",
+        'es': "Los rótulos o luminosos son la mejor opción para darle la mayor visibilidad a su negocio, producto o servicio. Siendo uno de los principales reclamos para los negocios a pie de calle  y aquellos que se basan en la atención directa al cliente.",
         'fr': "Les enseignes lumineuses sont la meilleure option pour donner plus de visibilité à votre entreprise, produit ou service. Être l'une des principales demandes pour les affaires dans la rue et celles basées sur le service client direct."
     },
     "For the labels we work with different options and materials, which adapt to the needs of the client and the market.": {
@@ -259,15 +259,15 @@ const dict = {
         'es': "Letras en metacrilato",
         'fr': "Lettres en méthacrylate"
     },
-    "Cork letters for weddings and specific events": {
-        'en': "Cork letters for weddings and specific events",
-        'es': "Letras en corcho para bodas y eventos puntuales",
-        'fr': "Lettres en liège pour mariages et événements spécifiques"
+    "Cork letters for weddings and specific events.": {
+        'en': "Cork letters for weddings and specific events.",
+        'es': "Letras en corcho para bodas y eventos puntuales.",
+        'fr': "Lettres en liège pour mariages et événements spécifiques."
     },
-    "They are the simplest option in the range of corporeal letters": {
-        'en': "They are the simplest option in the range of corporeal letters",
-        'es': "Son la opción más sencilla de la gama de letras corpóreas",
-        'fr': "Ils sont l'option la plus simple dans la gamme des lettres corporelles"
+    "They are the simplest option in the range of corporeal letters.": {
+        'en': "They are the simplest option in the range of corporeal letters.",
+        'es': "Son la opción más sencilla de la gama de letras corpóreas.",
+        'fr': "Ils sont l'option la plus simple dans la gamme des lettres corporelles."
     },
     "Your company, store or business will definitely win customers with this sign for an economical price. Thicknesses: 3, 5, 10, 16, 19 or 30mm.": {
         'en': "Your company, store or business will definitely win customers with this sign for an economical price. Thicknesses: 3, 5, 10, 16, 19 or 30mm.",
@@ -299,10 +299,10 @@ const dict = {
         'es': "Disponemos de una amplia gama de vinilos, que se adapta a toda necesidad y cada uno de nuestros clientes.",
         'fr': "Nous avons une large gamme de vinyle, adaptée à chaque besoin et à chacun de nos clients."
     },
-    "Decorative wall decals.": {
-        'en': "Decorative wall decals.",
-        'es': "Vinilos decorativos para pared.",
-        'fr': "Stickers muraux décoratifs."
+    "Decorative wall decals": {
+        'en': "Decorative wall decals",
+        'es': "Vinilos decorativos para pared",
+        'fr': "Stickers muraux décoratifs"
     },
     "Custom vinyls: shop windows, etc.": {
         'en': "Custom vinyls: shop windows, etc.",

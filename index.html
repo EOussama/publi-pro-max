@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="EOussama">
+        <meta name="application-name" content="Publi Pro Max">
+        <meta name="description" content="Publi Pro Max's official web page">
+        <meta name="keywords" content="Publication, Publi Pro Max, Rotulos, Grupo 123, Corporeos, Letras Corporeas, Luminosos, Graffic, Vinilos, Lonas, Rotulos premia, G2 visual group, Publi verd, Fira, Rotulos barcelona, Verdu digital, Rotulacion de vehiculos, Rotulacion integral, Rotulos Mataro, Retols">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/carousel.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/icon-box.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/jobs.css">
+        <link rel="shortcut icon" type="image/png" href="assets/images/logo.png">
+
+        <title>Publi Pro Max</title>
+    </head>
+
+    <body>
+        <div class="loadingPanel">
+            <div class="inner">
+                <h4>Publi Pro Max</h4>
+                <div class="cont">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="bgCover"></div>
+
+        <div class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title"><i class="fa fa-envelope"></i> <span class="trnsjs">Contacto</span></p>
+                    <button class="delete" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-large" value="publipromax@gmail.com" type="email" placeholder="Email" readonly>
+                        <span class="icon is-medium is-left">
+                            <i class="fas fa-at"></i>
+                        </span>
+                    </div>
+                    <div title="Teléfono" class="control has-icons-left has-icons-right">
+                        <input class="input is-large" value="93 519 01 13" type="text" placeholder="Teléfono" readonly>
+                        <span class="icon is-medium is-left">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                    </div>
+                    <div title="Mobile" class="control has-icons-left has-icons-right">
+                        <input class="input is-large" value="677 23 45 34" type="text" placeholder="Mobile" readonly>
+                        <span class="icon is-medium is-left">
+                            <i class="fas fa-phone-square"></i>
+                        </span>
+                    </div>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-large" value="08330 Premià de Mar, Barcelona" type="text" placeholder="Dirección" readonly>
+                        <span class="icon is-medium is-left">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                    </div>
+                </section>
+                <footer class="modal-card-foot">
+                    <a href="mailto:GRUPOROTULOS123@GMAIL.COM" class="button is-success is-large is-fullwidth trnsjs">Enviar un mensaje</a>
+                </footer>
+            </div>
+        </div>
+
+        <nav class="navbar is-white is-fixed-top">
+            <div class="navbar-brand">
+                <div class="navbar-burger burger" data-target="menuitems">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        
+            <div id="menuitems" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item has-text-grey-light is-uppercase is-active" href="javascript:void(0)" id="btnInicio"><i class="fa fa-home"></i> <span class="trnsjs">Inicio</span></a>
+                    <a class="navbar-item has-text-grey-light is-uppercase trnsjs" href="javascript:void(0)" id="btnUs">Conócenos</a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link has-text-grey-light is-uppercase trnsjs" href="services.html">Servicios</a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item has-text-grey-light trnsjs" href="services.html#rotulos">Rótulos/Luminosos</a>
+                            <a class="navbar-item has-text-grey-light trnsjs" href="services.html#rotulacion">Rotulación de vehículos</a>
+                            <a class="navbar-item has-text-grey-light trnsjs" href="services.html#letras">Letras Corpóreas</a>
+                            <a class="navbar-item has-text-grey-light trnsjs" href="services.html#vinilos">Vinilos</a>
+                        </div>
+                    </div>
+                    <a class="navbar-item has-text-grey-light is-uppercase trnsjs" href="javascript:void(0)" id="btnJobs">Trabajos</a>
+                    <a class="navbar-item has-text-grey-light is-uppercase trnsjs" href="javascript:void(0)" id="btnContact">Contacto</a>
+                </div>
+            
+                <div class="navbar-end">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link has-text-grey-light" href="javascript:void(0)"><i class="fa fa-globe"></i> <span class="trnsjs">Idioma</span></a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a id="langSelectEn" class="navbar-item has-text-grey-light trnsjs" href="javascript:void(0)">Inglés</a>
+                            <a id="langSelectEs" class="navbar-item has-text-grey-light trnsjs" href="javascript:void(0)">Español</a>
+                            <a id="langSelectFr" class="navbar-item has-text-grey-light trnsjs" href="javascript:void(0)">Francés</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header class="hero is-fullheight is-light is-bold">
+            <div class="carousel">
+                <ul class="carousel-container" id="carousel">
+                    <li class="carousel-item">
+                        <img src="assets/images/carousel/1.jpg" alt="Carousel image">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="assets/images/carousel/2.jpg" alt="Carousel image">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="assets/images/carousel/3.jpg" alt="Carousel image">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="assets/images/carousel/4.jpg" alt="Carousel image">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="assets/images/carousel/5.jpg" alt="Carousel image">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="assets/images/carousel/6.jpg" alt="Carousel image">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="assets/images/carousel/7.jpg" alt="Carousel image">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="assets/images/carousel/8.jpg" alt="Carousel image">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="assets/images/carousel/9.jpg" alt="Carousel image">
+                    </li>
+                </ul>
+            </div>
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="tile is-ancestor is-vertical">
+                        <div class="tile is-child">
+                            <img id="logo" src="assets/images/logo.png" alt="Publi Pro Max logo" width="350">
+                        </div>
+                        <div class="tile is-child">
+                            <p id="slogan" class="subtitle is-uppercase trnsjs">todo en rotulación u publicidad</p>
+                        </div>
+                        <div class="tile is-child">
+                            <i class="fa fa-chevron-down fa-3x has-text-grey"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero is-large" id="creative-section">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-size-2 is-uppercase has-text-centered trnsjs">Creamos tu gran Imaginación</h1>
+                    <div class="container columns">
+                        <div class="column">
+                            <div class="icon-box">
+                                <div>
+                                    <i class="fa fa-shuttle-van fa-4x"></i>
+                                </div>
+                                <div>
+                                    <p class="has-text-centered trnsjs">Trabajos en vinilos de primera clase para todo tipo de vehículos.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="column">
+                            <div class="icon-box">
+                                <div>
+                                    <i class="fa fa-store fa-4x"></i>
+                                </div>
+                                <div>
+                                    <p class="has-text-centered trnsjs">Diseños elegantes interiores y exteriores para todo tipo de tiendas, farmacias, festivales...</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="column">
+                            <div class="icon-box">
+                                <div>
+                                    <i class="fa fa-users fa-4x"></i>
+                                </div>
+                                <div>
+                                    <p class="has-text-centered trnsjs">Innumerables clientes de primera clase nos tienen a su disposición en toda Europa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-id="btnUs" class="sep has-background-white-ter">
+            <div class="content">
+                <h1 class="is-size-2 is-uppercase has-text-centered trnsjs">Conócenos</h1>
+                <h2 class="trnsjs">Descripción</h2>
+                <p class="trnsjs">Equipo joven, dinámico, altamente cualificado y con años de experiencia en el sector, con una ﬁlosofía clara, profesional y con un trato excelente ante el cliente.  Y es con el que contamos para  la instalación y aplicación de todo tipo de elementos gráficos.</p>
+                <p class="trnsjs">Con el propósito de ofrecer un excelente servicio, ponemos a disposición de nuestros clientes nuestro conocimiento en gestión, producción y logística. Un servicio global que permite garantizar el mejor producto.</p>
+                <p class="trnsjs">Especialistas en rótulos luminosos, banderolas, letras corpóreas, rotulación de vehículos, barcos, escaparates, impresión digital pequeño y gran formato y diferentes soportes de comunicación gráfica para la producción e instalación de todo tipo de elementos publicitarios, decoración de espacios, eventos y hemos dado cobertura en diferentes países como España, Portugal, Francia, Italia e Alemania.</p>
+                <p class="trnsjs">Servicio de mantenimiento y reparación de luminosos, también creamos su imagen corporativa.</p>
+                <p class="trnsjs">A día de hoy nos sentimos orgullosos por los resultados obtenidos y felices por ofrecer un servicio reconocido por nuestros clientes, sin ellos no seria posible valorar nuestra labor.</p>
+            </div>
+        </section>
+
+        <section data-id="btnJobs" class="sep has-background-white-ter">
+            <div class="content">
+                <h1 class="is-size-2 is-uppercase has-text-centered trnsjs">Trabajos</h1>
+                <div class="tile is-ancestor jobs-gallery">
+                    <div class="tile is-vertical jobs-thumbs">
+                        <img class="is-active" src="assets/images/jobs/1.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/2.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/3.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/4.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/5.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/6.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/7.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/8.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/9.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/10.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/11.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/12.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/13.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/14.jpg" alt="Job stock image">
+                        <img src="assets/images/jobs/15.jpg" alt="Job stock image">
+                    </div>
+                    <div class="tile is-parent" id="focuedPanelJob">
+                        <article class="tile is-child">
+                            <img src="assets/images/jobs/1.jpg" alt="Focused job stock image">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer has-background-dark has-text-light">
+            <div class="content">
+                <h3 class="is-size-3 has-text-centered has-text-light trnsjs">Información de contacto</h3>
+            </div>
+            <div id="contact-info" class="content columns has-text-centered">                    
+                    <div class="column tile is-ancestor is-vertical" style="margin-top: 50px;">
+                    <div class="content">
+                        <i class="fa fa-at"></i> publipromax@gmail.com
+                    </div>
+                    <div title="Teléfono" class="content">
+                        <i class="fa fa-phone"></i> 93 519 01 13
+                    </div>
+                    <div title="Mobile" class="content">
+                        <i class="fa fa-phone-square"></i> 677 23 45 34
+                    </div>
+                    <div class="content">
+                        <div>
+                            <i class="fa fa-map-marker-alt"></i> Carrer Torras i Bages, 31<br>
+                        </div>
+                        <small class="has-text-grey">08330 Premià de Mar, Barcelona</small>
+                    </div>
+                </div>
+                <div class="column" style="display: flex; justify-content: center;">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2113.2921974999404!2d2.351993298396048!3d41.49026319655099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b131b1d7b281%3A0x9725ed338242a48a!2sCarrer+Torras+i+Bages%2C+31%2C+08330+Premi%C3%A0+de+Mar%2C+Barcelona%2C+Spain!5e0!3m2!1sen!2sma!4v1537013048682" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="copyright has-text-centered has-text-grey">
+                &copy; Copyright <span id="copyright-year">2018</span><br>
+                All rights reserved • Publi Pro Max
+            </div>
+        </footer>
+        <div id="scrollTopBtn">
+            <i class="fa fa-chevron-up fa-lg has-text-light"></i>
+        </div>
+
+        <script src="assets/scripts/libs/translate.js"></script>
+        <script src="assets/scripts/trans.js"></script>
+        <script src="assets/scripts/main.js"></script>
+        <script src="assets/scripts/carousel.js"></script>
+        <script src="assets/scripts/jobs.js"></script>
+    </body>
+</html>
+
