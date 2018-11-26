@@ -8,9 +8,19 @@ $(document).ready(() => {
     $('#services-burger-dropdown').dropdown({ direction: 'downward', action: 'hide' });
 
     // Initializing the languages' dropdown.
-    $('#languages-dropdown').dropdown();
-    $('#languages-burger-dropdown').dropdown({ direction: 'downward' });
+    $('#languages-dropdown').dropdown({
+        onChange: (value) => {
+            translate(document.body, dict, value);
+        }
+    });
+    $('#languages-burger-dropdown').dropdown({
+            direction: 'downward',
+            onChange: (value) => {
+                translate(document.body, dict, value);
+            }
+        });
     $('#languages-dropdown .menu .item:first-of-type').click();
+    $('#languages-burger-dropdown .menu .item:first-of-type').click();
 
     // #endregion
 
