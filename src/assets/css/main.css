@@ -272,13 +272,22 @@ div#loader {
     section#creative div.grid div.column {
         margin-bottom: 60px !important;
     }
-    
+
     section#jobs div#jobs-carousel {
         height: 480px;
     }
     
     section#jobs div#jobs-carousel img {
         height: 400px;
+    }
+
+    section#services div.service-wrapper {
+        height: 400px;
+        overflow-y: auto;
+    }
+
+    section#services div.service-wrapper div.service-carousel img {
+        height: 399px;
     }
 
     section#services div.service-wrapper div.service-info {
