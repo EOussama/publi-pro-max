@@ -68,16 +68,22 @@ $(document).ready(() => {
         }, 500);
     });
 
+    let jobsTop = 200;
+
     $('a#jobs-btn').on('click', () => {
         $('html').animate({
-            scrollTop: $('#jobs-carousel').offset().top - 150
+            scrollTop: $('#jobs-carousel').offset().top - jobsTop
         }, 500);
+
+        jobsTop = 150;
     });
 
     $('a#jobs-burger-btn').on('click', () => {
         $('html').animate({
-            scrollTop: $('#jobs-carousel').offset().top - 150
+            scrollTop: $('#jobs-carousel').offset().top - jobsTop
         }, 500);
+
+        jobsTop = 150;
     });
 
     $(window).on('scroll', () => {
@@ -93,6 +99,13 @@ $(document).ready(() => {
     // #region Scroll reveal
 
     ScrollReveal().reveal('section#creative', {
+        delay: 200,
+        distance: '10%',
+        duration: 1000,
+        origin: 'bottom'
+    });
+
+    ScrollReveal().reveal('section#jobs', {
         delay: 200,
         distance: '10%',
         duration: 1000,
