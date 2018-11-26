@@ -81,7 +81,7 @@ section#jobs::after {
     -ms-mask-image: linear-gradient(to bottom, black, transparent);
     -moz-mask-image: linear-gradient(to bottom, black, transparent);
 
-    background-image: url(../img/backgrounds/services-bg.jpeg);
+    background-image: url(../img/backgrounds/jobs-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     content: "";
