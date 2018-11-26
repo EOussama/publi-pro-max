@@ -75,7 +75,8 @@ $(document).ready(() => {
 
     ScrollReveal().reveal('section#creative', {
         delay: 200,
-        distance: '30%',
+        distance: '10%',
+        duration: 1000,
         origin: 'bottom'
     });
 
