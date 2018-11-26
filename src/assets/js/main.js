@@ -27,6 +27,18 @@ $(document).ready(() => {
         draggable: true,
         dots: true
     });
+
+    $('#service-rotulos div.service-carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        draggable: true
+    });
+
+    $('#service-rotulacion div.service-carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        draggable: true
+    });
     // #endregion
 
     // #region Burger menu
