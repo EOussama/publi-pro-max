@@ -1,5 +1,11 @@
 $(document).ready(() => {
-    const navbar = $('nav#default-menu');
+    const
+        navbar = $('nav#default-menu'),
+        josbDef = 150,
+        servDef = 150;
+    let
+        jobsTop = 200,
+        servTop = 350;
 
     // #region Scroll
 
@@ -33,14 +39,12 @@ $(document).ready(() => {
         }, 500);
     });
 
-    let jobsTop = 200;
-
     $('a#jobs-btn').on('click', () => {
         $('html').animate({
             scrollTop: $('#jobs-carousel').offset().top - jobsTop
         }, 500);
 
-        jobsTop = 150;
+        jobsTop = josbDef;
     });
 
     $('a#jobs-burger-btn').on('click', () => {
@@ -48,10 +52,8 @@ $(document).ready(() => {
             scrollTop: $('#jobs-carousel').offset().top - jobsTop
         }, 500);
 
-        jobsTop = 150;
+        jobsTop = josbDef;
     });
-
-    let servTop = 350;
 
     $('a#luminos-btn').on('click', () => {
         $('html').animate({
@@ -140,42 +142,60 @@ $(document).ready(() => {
         delay: 200,
         distance: '10%',
         duration: 1000,
-        origin: 'bottom'
+        origin: 'bottom',
+        afterReveal: () => {
+            jobsTop = josbDef;
+        }
     });
 
     ScrollReveal().reveal('section#services', {
         delay: 200,
         distance: '10%',
         duration: 1000,
-        origin: 'bottom'
+        origin: 'bottom',
+        afterReveal: () => {
+            servTop = servDef;
+        }
     });
 
     ScrollReveal().reveal('div#service-rotulos', {
         delay: 200,
         distance: '10%',
         duration: 1000,
-        origin: 'left'
+        origin: 'left',
+        afterReveal: () => {
+            servTop = servDef;
+        }
     });
 
     ScrollReveal().reveal('div#service-rotulacion', {
         delay: 200,
         distance: '10%',
         duration: 1000,
-        origin: 'left'
+        origin: 'left',
+        afterReveal: () => {
+            servTop = servDef;
+        }
     });
 
     ScrollReveal().reveal('div#service-letras', {
         delay: 200,
         distance: '10%',
         duration: 1000,
-        origin: 'left'
+        origin: 'left',
+        afterReveal: () => {
+            servTop = servDef;
+        }
     });
 
     ScrollReveal().reveal('div#service-vinilos', {
         delay: 200,
         distance: '10%',
         duration: 1000,
-        origin: 'left'
+        origin: 'left',
+        afterReveal: () => {
+            servTop = servDef;
+        }
     });
 
     // #endregion    
