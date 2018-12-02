@@ -34,7 +34,8 @@ footer iframe#map {
     border: none;
     height: 100%;
     width: 100%;
-    box-shadow: 0px 2px 3px var(--color-gray-light);
+    -webkit-box-shadow: 0px 2px 3px var(--color-gray-light);
+            box-shadow: 0px 2px 3px var(--color-gray-light);
 }
 
 /* #endregion */

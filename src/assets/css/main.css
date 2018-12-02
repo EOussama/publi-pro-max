@@ -23,7 +23,8 @@ div.para-bg {
     background-image: url(../img/backgrounds/bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
     left: 0;
     height: 350px;
     opacity: .06;
@@ -37,7 +38,8 @@ section#creative {
     background-image: url(../img/backgrounds/creative-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
     margin: 80px 0;
     padding: 50px 20px;
     position: relative;
@@ -65,17 +67,28 @@ section#creative div.grid div.column {
 /* #region Jobs */
 
 section#jobs {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: auto;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 200px;
     overflow: hidden;
 }
 
 section#jobs::after {
+    mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
     mask-image: linear-gradient(to bottom, black, transparent);
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
     -webkit-mask-image: linear-gradient(to bottom, black, transparent);
     -o-mask-image: linear-gradient(to bottom, black, transparent);
     -ms-mask-image: linear-gradient(to bottom, black, transparent);
@@ -108,14 +121,20 @@ section#jobs h2, section#services h2 {
 section#jobs div#jobs-carousel img {
     border-radius: 3px;
     cursor: w-resize;
-    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
+            filter: grayscale(70%);
     height: 600px;
-    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
+    -webkit-transition-property: -webkit-filter;
+    transition-property: -webkit-filter;
     transition-property: filter;
+    transition-property: filter, -webkit-filter;
 }
 
 section#jobs:hover div#jobs-carousel img {
-    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
 }
 
 /* #endregion */
@@ -130,7 +149,8 @@ section#services {
 
 section#services div.service-wrapper {
     border-radius: 5px;
-    box-shadow: 2px 2px 2px var(--color-gray-light);
+    -webkit-box-shadow: 2px 2px 2px var(--color-gray-light);
+            box-shadow: 2px 2px 2px var(--color-gray-light);
     height: 500px;
     overflow: hidden;
     position: relative;
@@ -139,7 +159,8 @@ section#services div.service-wrapper {
 
 section#services div.service-wrapper div.service-info {
     background-color: var(--color-light);
-    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
     height: 101%;
     left: 0;
     overflow-x: hidden;
@@ -175,15 +196,21 @@ section#services div.service-wrapper div.service-carousel {
 section#services div.service-wrapper div.service-carousel img {
     border-radius: 3px;
     cursor: w-resize;
-    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
+            filter: grayscale(70%);
     height: 500px;
-    transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+            transition-duration: .3s;
+    -webkit-transition-property: -webkit-filter;
+    transition-property: -webkit-filter;
     transition-property: filter;
+    transition-property: filter, -webkit-filter;
     width: 100%;
 }
 
 section#services:hover div.service-wrapper div.service-carousel img {
-    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
 }
 
 div#service-letras {
@@ -198,7 +225,9 @@ div#service-letras div.service-letras-wrapper {
 }
 
 div#service-letras div.service-letras-wrapper::after {
+    mask-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(50%, transparent));
     mask-image: linear-gradient(to right, black, transparent 50%);
+    -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(50%, transparent));
     -webkit-mask-image: linear-gradient(to right, black, transparent 50%);
     -o-mask-image: linear-gradient(to right, black, transparent 50%);
     -ms-mask-image: linear-gradient(to right, black, transparent 50%);
@@ -291,28 +320,40 @@ div#loader {
     }
 
     section#services div.service-wrapper div.service-info {
+        mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(85%, transparent));
         mask-image: linear-gradient(to bottom, black, transparent 85%);
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(85%, transparent));
         -webkit-mask-image: linear-gradient(to bottom, black, transparent 85%);
         -o-mask-image: linear-gradient(to bottom, black, transparent 85%);
         -ms-mask-image: linear-gradient(to bottom, black, transparent 85%);
         -moz-mask-image: linear-gradient(to bottom, black, transparent 85%);
 
-        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+
+                clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
         height: 20%;
         top: -1px;
-        transition-duration: .3s;
+        -webkit-transition-duration: .3s;
+                transition-duration: .3s;
+        -webkit-transition-property: -webkit-clip-path height;
+        transition-property: -webkit-clip-path height;
         transition-property: clip-path height;
+        transition-property: clip-path height, -webkit-clip-path height;
         width: 100%;
     }
 
     section#services div.service-wrapper div.service-info:hover {
+        mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
         mask-image: linear-gradient(to bottom, black, black);
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
         -webkit-mask-image: linear-gradient(to bottom, black, black);
         -o-mask-image: linear-gradient(to bottom, black, black);
         -ms-mask-image: linear-gradient(to bottom, black, black);
         -moz-mask-image: linear-gradient(to bottom, black, black);
         
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        
+                clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
         height: 101%;
     }
 }
@@ -341,28 +382,40 @@ div#loader {
     }
 
     section#services div.service-wrapper div.service-info {
+        mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(60%, transparent));
         mask-image: linear-gradient(to bottom, black, transparent 60%);
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(60%, transparent));
         -webkit-mask-image: linear-gradient(to bottom, black, transparent 60%);
         -o-mask-image: linear-gradient(to bottom, black, transparent 60%);
         -ms-mask-image: linear-gradient(to bottom, black, transparent 60%);
         -moz-mask-image: linear-gradient(to bottom, black, transparent 60%);
 
-        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+
+                clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
         height: 20%;
         top: -1px;
-        transition-duration: .3s;
+        -webkit-transition-duration: .3s;
+                transition-duration: .3s;
+        -webkit-transition-property: -webkit-clip-path height;
+        transition-property: -webkit-clip-path height;
         transition-property: clip-path height;
+        transition-property: clip-path height, -webkit-clip-path height;
         width: 100%;
     }
 
     section#services div.service-wrapper div.service-info:hover {
+        mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
         mask-image: linear-gradient(to bottom, black, black);
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
         -webkit-mask-image: linear-gradient(to bottom, black, black);
         -o-mask-image: linear-gradient(to bottom, black, black);
         -ms-mask-image: linear-gradient(to bottom, black, black);
         -moz-mask-image: linear-gradient(to bottom, black, black);
         
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        
+                clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
         height: 101%;
     }
 }
