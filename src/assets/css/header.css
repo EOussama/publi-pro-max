@@ -25,6 +25,10 @@ nav#default-menu.sticky {
     z-index: 10;
 }
 
+nav img {
+    margin-right: 10px !important;
+}
+
 @-webkit-keyframes navbar-reveal {
     from {
         top: -100px;
@@ -187,6 +191,7 @@ header div.logo-wrapper i#scroll-down-btn.wiggle {
 /* #endregion */
 
 @media screen and (max-width: 766px) {
+
     nav#default-menu {
         display: none !important;
     }
