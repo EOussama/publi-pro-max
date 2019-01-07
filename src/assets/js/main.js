@@ -35,7 +35,7 @@ $(document).ready(() => {
         autoplay: true,
         autoplaySpeed: 5000,
         draggable: true,
-        dots: true
+        dots: false
     });
 
     $('#service-rotulos div.service-carousel').slick({
